@@ -279,8 +279,11 @@ public struct ContentView: View {
     }
     
     private func switchMode(_ mode: ViewMode) {
-        windowManager.transition(to: mode)
-        onModeChange?(mode)
+        if let onModeChange = onModeChange {
+            onModeChange(mode)
+        } else {
+            windowManager.transition(to: mode)
+        }
     }
     
     private func formatDuration(_ seconds: TimeInterval) -> String {

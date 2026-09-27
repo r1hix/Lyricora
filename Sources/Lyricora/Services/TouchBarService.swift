@@ -14,6 +14,7 @@ public final class TouchBarService: NSObject, NSTouchBarDelegate {
     public var mode: TouchBarLyricsMode {
         didSet {
             UserDefaults.standard.set(mode.rawValue, forKey: modeKey)
+            removeSystemTrayItem()
             updateTouchBarPresence()
         }
     }
@@ -39,7 +40,6 @@ public final class TouchBarService: NSObject, NSTouchBarDelegate {
         super.init()
         
         setupNotificationObservers()
-        setupTouchBar()
     }
     
     private func setupNotificationObservers() {
@@ -70,7 +70,9 @@ public final class TouchBarService: NSObject, NSTouchBarDelegate {
     }
     
     @objc private func handleFocusStateChange() {
-        updateTouchBarPresence()
+        DispatchQueue.main.async { [weak self] in
+            self?.updateTouchBarPresence()
+        }
     }
     
     public func setMode(_ newMode: TouchBarLyricsMode) {
@@ -89,7 +91,9 @@ public final class TouchBarService: NSObject, NSTouchBarDelegate {
     }
     
     public func setupTouchBar() {
-        updateTouchBarPresence()
+        DispatchQueue.main.async { [weak self] in
+            self?.updateTouchBarPresence()
+        }
     }
     
     public func makeTouchBar() -> NSTouchBar? {
@@ -139,6 +143,7 @@ public final class TouchBarService: NSObject, NSTouchBarDelegate {
     }
     
     private func presentModalTouchBar() {
+        guard !isModalPresented else { return }
         guard let touchBar = makeTouchBar() else { return }
         
         let sel = NSSelectorFromString("presentSystemModalTouchBar:placement:systemTrayItemIdentifier:")
@@ -209,7 +214,6 @@ public final class TouchBarService: NSObject, NSTouchBarDelegate {
         }
         
         // Ensure system tray item is registered so macOS has the anchor identifier
-        removeSystemTrayItem()
         ensureSystemTrayItemRegistered()
         
         let isFocused = NSApp.isActive

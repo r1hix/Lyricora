@@ -6,6 +6,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         // Run as a regular application visible in Cmd+Tab / Alt+Tab and Dock
         NSApp.setActivationPolicy(.regular)
         WindowManager.shared.setupFloatingWindow()
+        TouchBarService.shared.setupTouchBar()
     }
     
     func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {

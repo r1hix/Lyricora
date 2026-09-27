@@ -2,7 +2,13 @@
 set -e
 
 echo "🔨 Building Lyricora in Release mode..."
-swift build -c release
+if xcodebuild -checkFirstLaunchStatus &>/dev/null; then
+    swift build -c release
+else
+    DEVELOPER_DIR=/Library/Developer/CommandLineTools swift build -c release \
+        -Xswiftc -load-plugin-library \
+        -Xswiftc /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libSwiftUIMacros.dylib
+fi
 
 APP_NAME="Lyricora.app"
 BUNDLE_DIR="./build/$APP_NAME"
