@@ -18,6 +18,11 @@ let package = Package(
             name: "Lyricora",
             dependencies: [],
             path: "Sources/Lyricora"
+        ),
+        .testTarget(
+            name: "LyricoraTests",
+            dependencies: ["Lyricora"],
+            path: "Tests/LyricoraTests"
         )
     ]
 )

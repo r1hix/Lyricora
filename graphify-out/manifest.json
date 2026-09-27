@@ -1,0 +1,116 @@
+{
+  "Package.swift": {
+    "mtime": 1790532114.8940141,
+    "seen": 1790532263.625387,
+    "ast_hash": "8b3436c81a46304416e9789152eca57a",
+    "semantic_hash": "8b3436c81a46304416e9789152eca57a"
+  },
+  "Sources/Lyricora/App/LyricoraApp.swift": {
+    "mtime": 1790532136.1994705,
+    "seen": 1790532263.62539,
+    "ast_hash": "e0af69f43b0c1ba3d5a4679198202470",
+    "semantic_hash": "e0af69f43b0c1ba3d5a4679198202470"
+  },
+  "Sources/Lyricora/App/WindowManager.swift": {
+    "mtime": 1790532146.5973058,
+    "seen": 1790532263.625391,
+    "ast_hash": "58625685afef26d9468d06442823028d",
+    "semantic_hash": "58625685afef26d9468d06442823028d"
+  },
+  "Sources/Lyricora/Models/LyricModels.swift": {
+    "mtime": 1790276189.1703815,
+    "seen": 1790532263.6253922,
+    "ast_hash": "ed04dd266fcc592924aad52894a067cc",
+    "semantic_hash": "ed04dd266fcc592924aad52894a067cc"
+  },
+  "Sources/Lyricora/Models/PlaybackState.swift": {
+    "mtime": 1790532156.29433,
+    "seen": 1790532263.625393,
+    "ast_hash": "0302fb364162ec427d42be71bef419cc",
+    "semantic_hash": "0302fb364162ec427d42be71bef419cc"
+  },
+  "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift": {
+    "mtime": 1790276212.1497686,
+    "seen": 1790532263.6253939,
+    "ast_hash": "9ee382f2f099d48d7f30f4716ab927c9",
+    "semantic_hash": "9ee382f2f099d48d7f30f4716ab927c9"
+  },
+  "Sources/Lyricora/Services/LyricsService.swift": {
+    "mtime": 1790532168.8618543,
+    "seen": 1790532263.625395,
+    "ast_hash": "352fd83d88aa2882430ec8d077af72b0",
+    "semantic_hash": "352fd83d88aa2882430ec8d077af72b0"
+  },
+  "Sources/Lyricora/Services/SleepPreventerService.swift": {
+    "mtime": 1790532183.622925,
+    "seen": 1790532263.625395,
+    "ast_hash": "78bea23f9abbed73a1e217ec5f92df6d",
+    "semantic_hash": "78bea23f9abbed73a1e217ec5f92df6d"
+  },
+  "Sources/Lyricora/Services/SpotifyObserver.swift": {
+    "mtime": 1790205306.4661114,
+    "seen": 1790532263.625396,
+    "ast_hash": "3e323eaf43b5c4fc9c1baca06b134a18",
+    "semantic_hash": "3e323eaf43b5c4fc9c1baca06b134a18"
+  },
+  "Sources/Lyricora/Services/TouchBarService.swift": {
+    "mtime": 1790532192.9408596,
+    "seen": 1790532263.625397,
+    "ast_hash": "fb66577f1915c4c79bd307089d5babfe",
+    "semantic_hash": "fb66577f1915c4c79bd307089d5babfe"
+  },
+  "Sources/Lyricora/Views/AmbientBackdropView.swift": {
+    "mtime": 1790458419.0812953,
+    "seen": 1790532263.625399,
+    "ast_hash": "ead1e9a19213dcddc4aff9ed350ef17e",
+    "semantic_hash": "ead1e9a19213dcddc4aff9ed350ef17e"
+  },
+  "Sources/Lyricora/Views/AmbientCanvasView.swift": {
+    "mtime": 1790276280.9350233,
+    "seen": 1790532263.6254,
+    "ast_hash": "0845f7dbcc9c5a232922802086597d52",
+    "semantic_hash": "0845f7dbcc9c5a232922802086597d52"
+  },
+  "Sources/Lyricora/Views/ContentView.swift": {
+    "mtime": 1790270276.5109007,
+    "seen": 1790532263.6254,
+    "ast_hash": "0dbca91b9a2c8f38df45d0f3bc66dd78",
+    "semantic_hash": "0dbca91b9a2c8f38df45d0f3bc66dd78"
+  },
+  "Sources/Lyricora/Views/LyricsView.swift": {
+    "mtime": 1790276261.2900338,
+    "seen": 1790532263.625401,
+    "ast_hash": "8a0cff663980a2d37429f97e1bc4606b",
+    "semantic_hash": "8a0cff663980a2d37429f97e1bc4606b"
+  },
+  "Sources/Lyricora/Views/MiniHUDView.swift": {
+    "mtime": 1790276314.0596979,
+    "seen": 1790532263.6254022,
+    "ast_hash": "0bb4238e5fb36d7ae89d16bd8b9f8c9a",
+    "semantic_hash": "0bb4238e5fb36d7ae89d16bd8b9f8c9a"
+  },
+  "Sources/Lyricora/Views/TouchBarLyricsView.swift": {
+    "mtime": 1790276298.30404,
+    "seen": 1790532263.625403,
+    "ast_hash": "b58a6cdefaa5ad38497ad74eedd808b8",
+    "semantic_hash": "b58a6cdefaa5ad38497ad74eedd808b8"
+  },
+  "Sources/Lyricora/Views/WindowDragHandle.swift": {
+    "mtime": 1790205334.2947168,
+    "seen": 1790532263.625403,
+    "ast_hash": "8cf4f0ff260eb98bfa2c4b3ce67fe399",
+    "semantic_hash": "8cf4f0ff260eb98bfa2c4b3ce67fe399"
+  },
+  "Tests/LyricoraTests/LyricoraTests.swift": {
+    "mtime": 1790532207.2376475,
+    "seen": 1790532263.625404,
+    "ast_hash": "7a1f43560529cd3bd91739587f207ee1",
+    "semantic_hash": "7a1f43560529cd3bd91739587f207ee1"
+  },
+  "build_app.sh": {
+    "mtime": 1790532222.3098829,
+    "seen": 1790532263.6254048,
+    "ast_hash": "7e878b8557db515ca4f1ba896fd06a31",
+    "semantic_hash": "7e878b8557db515ca4f1ba896fd06a31"
+  }
+}

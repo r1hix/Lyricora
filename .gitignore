@@ -34,12 +34,11 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
-# Developer Tools, Tests & Architecture (Kept on dev branch)
-Tests/
-graphify-out/
-.graphify*
-.gitignore.dev
-Package.swift.dev
+# Graphify Dev Index: Ignore heavy local caches while tracking architecture reports
+graphify-out/cache/
+graphify-out/*.sig
+graphify-out/.graphify_root
+graphify-out/.graphify_analysis.json
 
 # IDE & Editor Configurations
 .vscode/
