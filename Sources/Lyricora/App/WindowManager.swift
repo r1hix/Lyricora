@@ -32,6 +32,7 @@ public final class WindowManager: NSObject, NSWindowDelegate {
     public var currentMode: ViewMode = .fullOverlay
     public var isFullScreen: Bool = false
     private var previousModeBeforeFullscreen: ViewMode = .fullOverlay
+    private var previousNonAmbientFrame: NSRect?
     
     private override init() {
         super.init()
@@ -78,9 +79,15 @@ public final class WindowManager: NSObject, NSWindowDelegate {
         // Center or position on the main screen
         if let screen = NSScreen.main {
             let screenRect = screen.visibleFrame
-            let x = screenRect.maxX - initialSize.width - 40
-            let y = screenRect.maxY - initialSize.height - 40
-            window.setFrameOrigin(NSPoint(x: x, y: y))
+            if currentMode == .ambientCanvas {
+                let x = max(screenRect.minX, screenRect.minX + (screenRect.width - initialSize.width) / 2.0)
+                let y = max(screenRect.minY, screenRect.minY + (screenRect.height - initialSize.height) / 2.0)
+                window.setFrameOrigin(NSPoint(x: x, y: y))
+            } else {
+                let x = screenRect.maxX - initialSize.width - 40
+                let y = screenRect.maxY - initialSize.height - 40
+                window.setFrameOrigin(NSPoint(x: x, y: y))
+            }
         }
         
         let contentView = ContentView(
@@ -131,21 +138,72 @@ public final class WindowManager: NSObject, NSWindowDelegate {
     
     public func transition(to mode: ViewMode) {
         guard let window = window else { return }
+        let oldMode = self.currentMode
         self.currentMode = mode
         
         // If currently in native fullscreen, macOS handles window size
         guard !window.styleMask.contains(.fullScreen) else { return }
         
         let newSize = mode.windowSize
-        var newFrame = window.frame
-        let oldHeight = newFrame.size.height
+        let targetScreen = window.screen ?? NSScreen.main
+        let screenRect = targetScreen?.visibleFrame ?? NSRect(x: 0, y: 0, width: 1440, height: 900)
         
-        newFrame.size = newSize
-        // Anchor top-left so window expands downward/inward
-        newFrame.origin.y += (oldHeight - newSize.height)
+        var newFrame: NSRect
+        
+        if mode == .ambientCanvas {
+            // Save non-ambient position so we can restore it when returning
+            if oldMode != .ambientCanvas {
+                previousNonAmbientFrame = window.frame
+            }
+            // Bring the window to the center of the screen
+            let x = max(screenRect.minX, screenRect.minX + (screenRect.width - newSize.width) / 2.0)
+            let y = max(screenRect.minY, screenRect.minY + (screenRect.height - newSize.height) / 2.0)
+            newFrame = NSRect(
+                x: x,
+                y: y,
+                width: min(newSize.width, screenRect.width),
+                height: min(newSize.height, screenRect.height)
+            )
+        } else if oldMode == .ambientCanvas, let prevFrame = previousNonAmbientFrame, targetScreen?.frame.intersects(prevFrame) == true {
+            // Returning from ambient mode on the same display: restore previous non-ambient position
+            // Anchor to top-left of previous frame in case target mode size differs from saved frame
+            let prevTop = prevFrame.maxY
+            let prevLeft = prevFrame.minX
+            newFrame = NSRect(
+                x: prevLeft,
+                y: prevTop - newSize.height,
+                width: newSize.width,
+                height: newSize.height
+            )
+        } else {
+            let oldHeight = window.frame.size.height
+            var frame = window.frame
+            frame.size = newSize
+            // Anchor top-left so window expands downward/inward
+            frame.origin.y += (oldHeight - newSize.height)
+            newFrame = frame
+        }
+        
+        // Ensure window remains completely within visible screen bounds
+        if newFrame.maxX > screenRect.maxX {
+            newFrame.origin.x = screenRect.maxX - newFrame.width
+        }
+        if newFrame.minX < screenRect.minX {
+            newFrame.origin.x = screenRect.minX
+        }
+        if newFrame.maxY > screenRect.maxY {
+            newFrame.origin.y = screenRect.maxY - newFrame.height
+        }
+        if newFrame.minY < screenRect.minY {
+            newFrame.origin.y = screenRect.minY
+        }
+        
+        // Avoid redundant animations if frame is already matching
+        if window.frame.equalTo(newFrame) { return }
         
         // Native crash-proof frame animation
-        window.setFrame(newFrame, display: true, animate: true)
+        let shouldAnimate = window.isVisible
+        window.setFrame(newFrame, display: true, animate: shouldAnimate)
     }
     
     public func toggleFullScreen() {

@@ -56,6 +56,19 @@
       "source_location": "L179"
     },
     {
+      "id": "sources_lyricora_models_playbackstate_playbackstatus",
+      "label": "PlaybackStatus",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "playbackstatus",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L4"
+    },
+    {
       "id": "sources_lyricora_models_playbackstate_track",
       "label": "Track",
       "_callable": true,
@@ -67,6 +80,19 @@
       "norm_label": "track",
       "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
       "source_location": "L15"
+    },
+    {
+      "id": "sources_lyricora_services_lyricsservice_lrclibresponse",
+      "label": "LRCLIBResponse",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "lrclibresponse",
+      "source_file": "Sources/Lyricora/Services/LyricsService.swift",
+      "source_location": "L4"
     },
     {
       "id": "sources_lyricora_services_lyricsservice_lyricsservice",
@@ -108,17 +134,251 @@
       "source_location": "L7"
     },
     {
-      "id": "sources_lyricora_views_minihudview_minihudview",
-      "label": "MiniHUDView",
+      "id": "sources_lyricora_views_contentview_contentview",
+      "label": "ContentView",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 1,
       "community_name": "SpotifyObserver",
       "file_type": "code",
+      "norm_label": "contentview",
+      "source_file": "Sources/Lyricora/Views/ContentView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "sources_lyricora_rendering_karaoketextrenderer_karaokewordrenderer",
+      "label": "KaraokeWordRenderer",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "KaraokeWordText",
+      "file_type": "code",
+      "norm_label": "karaokewordrenderer",
+      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "sources_lyricora_rendering_karaoketextrenderer_karaokewordtext",
+      "label": "KaraokeWordText",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "KaraokeWordText",
+      "file_type": "code",
+      "norm_label": "karaokewordtext",
+      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
+      "source_location": "L77"
+    },
+    {
+      "id": "sources_lyricora_app_lyricoraapp_appdelegate",
+      "label": "AppDelegate",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "appdelegate",
+      "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "sources_lyricora_app_windowmanager_lyricorawindow",
+      "label": "LyricoraWindow",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "lyricorawindow",
+      "source_file": "Sources/Lyricora/App/WindowManager.swift",
+      "source_location": "L6"
+    },
+    {
+      "id": "sources_lyricora_app_windowmanager_windowmanager",
+      "label": "WindowManager",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "windowmanager",
+      "source_file": "Sources/Lyricora/App/WindowManager.swift",
+      "source_location": "L25"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_flowlayout",
+      "label": "FlowLayout",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "flowlayout",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L275"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_lyriclinerow",
+      "label": "LyricLineRow",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "lyriclinerow",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L102"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_lyricsview",
+      "label": "LyricsView",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "lyricsview",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_wrappingwordview",
+      "label": "WrappingWordView",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "wrappingwordview",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L166"
+    },
+    {
+      "id": "sources_lyricora_views_ambientbackdropview_ambientbackdropview",
+      "label": "AmbientBackdropView",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "ambientbackdropview",
+      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
+      "source_location": "L234"
+    },
+    {
+      "id": "sources_lyricora_views_ambientbackdropview_ambienttimetracker",
+      "label": "AmbientTimeTracker",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "ambienttimetracker",
+      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
+      "source_location": "L213"
+    },
+    {
+      "id": "sources_lyricora_views_ambientbackdropview_colorextractor",
+      "label": "ColorExtractor",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "colorextractor",
+      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
+      "source_location": "L84"
+    },
+    {
+      "id": "sources_lyricora_views_ambientbackdropview_dynamicpalette",
+      "label": "DynamicPalette",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "dynamicpalette",
+      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
+      "source_location": "L31"
+    },
+    {
+      "id": "sources_lyricora_views_ambientbackdropview_rgbcolor",
+      "label": "RGBColor",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "rgbcolor",
+      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
+      "source_location": "L5"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_touchbarlyricsmode",
+      "label": "TouchBarLyricsMode",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "touchbarlyricsmode",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L79"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_viewmode",
+      "label": "ViewMode",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "viewmode",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L49"
+    },
+    {
+      "id": "sources_lyricora_views_minihudview_minihudview",
+      "label": "MiniHUDView",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
       "norm_label": "minihudview",
       "source_file": "Sources/Lyricora/Views/MiniHUDView.swift",
       "source_location": "L3"
+    },
+    {
+      "id": "sources_lyricora_views_touchbarlyricsview_touchbarlyricsview",
+      "label": "TouchBarLyricsView",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "touchbarlyricsview",
+      "source_file": "Sources/Lyricora/Views/TouchBarLyricsView.swift",
+      "source_location": "L4"
     },
     {
       "id": "sources_lyricora_views_windowdraghandle_dragnsview",
@@ -126,8 +386,8 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 10,
-      "community_name": "WindowDragHandle",
+      "community": 6,
+      "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "dragnsview",
       "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
@@ -139,8 +399,8 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 10,
-      "community_name": "WindowDragHandle",
+      "community": 6,
+      "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "windowdraghandle",
       "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
@@ -152,77 +412,12 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 10,
-      "community_name": "WindowDragHandle",
+      "community": 6,
+      "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "windowdragpill",
       "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
       "source_location": "L20"
-    },
-    {
-      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice",
-      "label": "SleepPreventerService",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "SleepPreventerService",
-      "file_type": "code",
-      "norm_label": "sleeppreventerservice",
-      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
-      "source_location": "L5"
-    },
-    {
-      "id": "sources_lyricora_app_lyricoraapp_lyricoraapp",
-      "label": "LyricoraApp",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "lyricoraapp",
-      "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L25"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_playbackstatus",
-      "label": "PlaybackStatus",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "playbackstatus",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L4"
-    },
-    {
-      "id": "sources_lyricora_services_lyricsservice_lrclibresponse",
-      "label": "LRCLIBResponse",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "lrclibresponse",
-      "source_file": "Sources/Lyricora/Services/LyricsService.swift",
-      "source_location": "L4"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_touchbarlyricsmode",
-      "label": "TouchBarLyricsMode",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": "touchbarlyricsmode",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L79"
     },
     {
       "id": "sources_lyricora_services_touchbarservice_touchbarservice",
@@ -230,7 +425,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 3,
+      "community": 7,
       "community_name": "TouchBarService",
       "file_type": "code",
       "metadata": {
@@ -248,181 +443,12 @@
       "source_location": "L5"
     },
     {
-      "id": "sources_lyricora_views_touchbarlyricsview_touchbarlyricsview",
-      "label": "TouchBarLyricsView",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": "touchbarlyricsview",
-      "source_file": "Sources/Lyricora/Views/TouchBarLyricsView.swift",
-      "source_location": "L4"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_flowlayout",
-      "label": "FlowLayout",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "flowlayout",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L275"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_lyriclinerow",
-      "label": "LyricLineRow",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "lyriclinerow",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L102"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_lyricsview",
-      "label": "LyricsView",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "lyricsview",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L3"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_wrappingwordview",
-      "label": "WrappingWordView",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "wrappingwordview",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L166"
-    },
-    {
-      "id": "sources_lyricora_app_lyricoraapp_appdelegate",
-      "label": "AppDelegate",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": "appdelegate",
-      "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L4"
-    },
-    {
-      "id": "sources_lyricora_app_windowmanager_lyricorawindow",
-      "label": "LyricoraWindow",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": "lyricorawindow",
-      "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L6"
-    },
-    {
-      "id": "sources_lyricora_app_windowmanager_windowmanager",
-      "label": "WindowManager",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": "windowmanager",
-      "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L25"
-    },
-    {
-      "id": "sources_lyricora_views_ambientbackdropview_ambientbackdropview",
-      "label": "AmbientBackdropView",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": "ambientbackdropview",
-      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
-      "source_location": "L234"
-    },
-    {
-      "id": "sources_lyricora_views_ambientbackdropview_ambienttimetracker",
-      "label": "AmbientTimeTracker",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": "ambienttimetracker",
-      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
-      "source_location": "L213"
-    },
-    {
-      "id": "sources_lyricora_views_ambientbackdropview_colorextractor",
-      "label": "ColorExtractor",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": "colorextractor",
-      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
-      "source_location": "L84"
-    },
-    {
-      "id": "sources_lyricora_views_ambientbackdropview_dynamicpalette",
-      "label": "DynamicPalette",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": "dynamicpalette",
-      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
-      "source_location": "L31"
-    },
-    {
-      "id": "sources_lyricora_views_ambientbackdropview_rgbcolor",
-      "label": "RGBColor",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": "rgbcolor",
-      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
-      "source_location": "L5"
-    },
-    {
       "id": "sources_lyricora_views_ambientcanvasview_ambientcanvasview",
       "label": "AmbientCanvasView",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": "ambientcanvasview",
@@ -435,7 +461,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": "anytransition",
@@ -448,7 +474,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": "blurtransitionmodifier",
@@ -456,56 +482,30 @@
       "source_location": "L489"
     },
     {
-      "id": "sources_lyricora_models_playbackstate_viewmode",
-      "label": "ViewMode",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": "viewmode",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L49"
-    },
-    {
-      "id": "sources_lyricora_views_contentview_contentview",
-      "label": "ContentView",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": "contentview",
-      "source_file": "Sources/Lyricora/Views/ContentView.swift",
-      "source_location": "L3"
-    },
-    {
-      "id": "sources_lyricora_rendering_karaoketextrenderer_karaokewordrenderer",
-      "label": "KaraokeWordRenderer",
+      "id": "sources_lyricora_app_lyricoraapp_lyricoraapp",
+      "label": "LyricoraApp",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "KaraokeWordText",
+      "community_name": "SleepPreventerService",
       "file_type": "code",
-      "norm_label": "karaokewordrenderer",
-      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
-      "source_location": "L3"
+      "norm_label": "lyricoraapp",
+      "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
+      "source_location": "L26"
     },
     {
-      "id": "sources_lyricora_rendering_karaoketextrenderer_karaokewordtext",
-      "label": "KaraokeWordText",
+      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice",
+      "label": "SleepPreventerService",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "KaraokeWordText",
+      "community_name": "SleepPreventerService",
       "file_type": "code",
-      "norm_label": "karaokewordtext",
-      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
-      "source_location": "L77"
+      "norm_label": "sleeppreventerservice",
+      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
+      "source_location": "L5"
     },
     {
       "id": "sources_lyricora_models_lyricmodels_lyricline_init",
@@ -746,6 +746,40 @@
       "norm_label": ".testclockinterpolation()",
       "source_file": "Tests/LyricoraTests/LyricoraTests.swift",
       "source_location": "L39"
+    },
+    {
+      "id": "tests_lyricoratests_lyricoratests_lyricoratests_testcolorextractorwithsyntheticimage",
+      "label": ".testColorExtractorWithSyntheticImage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "lockFocus",
+            "receiver_type": "NSImage",
+            "lang": "swift",
+            "line": "L225"
+          },
+          {
+            "callee": "setFill",
+            "receiver_type": "NSColor",
+            "lang": "swift",
+            "line": "L226"
+          },
+          {
+            "callee": "unlockFocus",
+            "receiver_type": "NSImage",
+            "lang": "swift",
+            "line": "L228"
+          }
+        ]
+      },
+      "norm_label": ".testcolorextractorwithsyntheticimage()",
+      "source_file": "Tests/LyricoraTests/LyricoraTests.swift",
+      "source_location": "L221"
     },
     {
       "id": "tests_lyricoratests_lyricoratests_lyricoratests_testdynamicpalettefallback",
@@ -1109,10 +1143,10 @@
       "file_type": "code",
       "norm_label": ".formatduration()",
       "source_file": "Sources/Lyricora/Views/ContentView.swift",
-      "source_location": "L286"
+      "source_location": "L289"
     },
     {
-      "id": "sources_lyricora_views_minihudview_minihudview_init",
+      "id": "sources_lyricora_views_contentview_contentview_init",
       "label": ".init()",
       "_callable": true,
       "_origin": "ast",
@@ -1120,519 +1154,75 @@
       "community_name": "SpotifyObserver",
       "file_type": "code",
       "norm_label": ".init()",
-      "source_file": "Sources/Lyricora/Views/MiniHUDView.swift",
+      "source_file": "Sources/Lyricora/Views/ContentView.swift",
       "source_location": "L12"
     },
     {
-      "id": "sources_lyricora_views_windowdraghandle_dragnsview_mousedown",
-      "label": ".mouseDown()",
+      "id": "sources_lyricora_views_contentview_contentview_switchmode",
+      "label": ".switchMode()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "SpotifyObserver",
+      "file_type": "code",
+      "norm_label": ".switchmode()",
+      "source_file": "Sources/Lyricora/Views/ContentView.swift",
+      "source_location": "L281"
+    },
+    {
+      "id": "sources_lyricora_rendering_karaoketextrenderer_karaokewordrenderer_draw",
+      "label": ".draw()",
       "_callable": true,
       "_origin": "ast",
       "community": 10,
-      "community_name": "WindowDragHandle",
+      "community_name": "KaraokeWordText",
       "file_type": "code",
-      "norm_label": ".mousedown()",
-      "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
-      "source_location": "L14"
+      "norm_label": ".draw()",
+      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
+      "source_location": "L25"
     },
     {
-      "id": "sources_lyricora_views_windowdraghandle_windowdraghandle_init",
+      "id": "sources_lyricora_rendering_karaoketextrenderer_karaokewordrenderer_init",
       "label": ".init()",
       "_callable": true,
       "_origin": "ast",
       "community": 10,
-      "community_name": "WindowDragHandle",
+      "community_name": "KaraokeWordText",
       "file_type": "code",
       "norm_label": ".init()",
-      "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
-      "source_location": "L5"
-    },
-    {
-      "id": "sources_lyricora_views_windowdraghandle_windowdraghandle_makensview",
-      "label": ".makeNSView()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "WindowDragHandle",
-      "file_type": "code",
-      "norm_label": ".makensview()",
-      "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
-      "source_location": "L7"
-    },
-    {
-      "id": "sources_lyricora_views_windowdraghandle_windowdraghandle_updatensview",
-      "label": ".updateNSView()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "WindowDragHandle",
-      "file_type": "code",
-      "norm_label": ".updatensview()",
-      "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
+      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
       "source_location": "L11"
     },
     {
-      "id": "sources_lyricora_views_windowdraghandle_windowdragpill_init",
+      "id": "sources_lyricora_rendering_karaoketextrenderer_karaokewordtext_init",
       "label": ".init()",
       "_callable": true,
       "_origin": "ast",
       "community": 10,
-      "community_name": "WindowDragHandle",
+      "community_name": "KaraokeWordText",
       "file_type": "code",
       "norm_label": ".init()",
-      "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
-      "source_location": "L21"
-    },
-    {
-      "id": "sources_lyricora_app_lyricoraapp_appdelegate_applicationwillterminate",
-      "label": ".applicationWillTerminate()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "SleepPreventerService",
-      "file_type": "code",
-      "norm_label": ".applicationwillterminate()",
-      "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L20"
-    },
-    {
-      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_applyscreenawakestate",
-      "label": ".applyScreenAwakeState()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "SleepPreventerService",
-      "file_type": "code",
-      "norm_label": ".applyscreenawakestate()",
-      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
-      "source_location": "L31"
-    },
-    {
-      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_cleanup",
-      "label": ".cleanup()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "SleepPreventerService",
-      "file_type": "code",
-      "norm_label": ".cleanup()",
-      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
-      "source_location": "L72"
-    },
-    {
-      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_disablescreenawake",
-      "label": ".disableScreenAwake()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "SleepPreventerService",
-      "file_type": "code",
-      "norm_label": ".disablescreenawake()",
-      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
-      "source_location": "L63"
-    },
-    {
-      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_enablescreenawake",
-      "label": ".enableScreenAwake()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "SleepPreventerService",
-      "file_type": "code",
-      "norm_label": ".enablescreenawake()",
-      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
-      "source_location": "L39"
-    },
-    {
-      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_init",
-      "label": ".init()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "SleepPreventerService",
-      "file_type": "code",
-      "norm_label": ".init()",
-      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
-      "source_location": "L20"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_cyclemode",
-      "label": ".cycleMode()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".cyclemode()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L80"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_dismissmodaltouchbar",
-      "label": ".dismissModalTouchBar()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".dismissmodaltouchbar()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L154"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_ensuresystemtrayitemregistered",
-      "label": ".ensureSystemTrayItemRegistered()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "metadata": {
-        "unresolved_calls": [
-          {
-            "callee": "setContentHuggingPriority",
-            "receiver_type": "NSHostingView",
-            "lang": "swift",
-            "line": "L181"
-          },
-          {
-            "callee": "setContentCompressionResistancePriority",
-            "receiver_type": "NSHostingView",
-            "lang": "swift",
-            "line": "L182"
-          },
-          {
-            "callee": "responds",
-            "receiver_type": "NSTouchBarItem",
-            "lang": "swift",
-            "line": "L186"
-          },
-          {
-            "callee": "perform",
-            "receiver_type": "NSTouchBarItem",
-            "lang": "swift",
-            "line": "L187"
-          }
-        ]
-      },
-      "norm_label": ".ensuresystemtrayitemregistered()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L170"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_handlefocusstatechange",
-      "label": ".handleFocusStateChange()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".handlefocusstatechange()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L72"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_init",
-      "label": ".init()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".init()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L31"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_maketouchbar",
-      "label": ".makeTouchBar()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".maketouchbar()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L95"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_presentmodaltouchbar",
-      "label": ".presentModalTouchBar()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".presentmodaltouchbar()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L141"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_removesystemtrayitem",
-      "label": ".removeSystemTrayItem()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "metadata": {
-        "unresolved_calls": [
-          {
-            "callee": "responds",
-            "receiver_type": "NSTouchBarItem",
-            "lang": "swift",
-            "line": "L195"
-          },
-          {
-            "callee": "perform",
-            "receiver_type": "NSTouchBarItem",
-            "lang": "swift",
-            "line": "L196"
-          }
-        ]
-      },
-      "norm_label": ".removesystemtrayitem()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L192"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_setcloseboxvisible",
-      "label": ".setCloseBoxVisible()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".setcloseboxvisible()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L125"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_setcontrolstrippresence",
-      "label": ".setControlStripPresence()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".setcontrolstrippresence()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L133"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_setmode",
-      "label": ".setMode()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".setmode()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L76"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_setupnotificationobservers",
-      "label": ".setupNotificationObservers()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".setupnotificationobservers()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L45"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_setuptouchbar",
-      "label": ".setupTouchBar()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".setuptouchbar()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L91"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_touchbar",
-      "label": ".touchBar()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "metadata": {
-        "unresolved_calls": [
-          {
-            "callee": "setContentHuggingPriority",
-            "receiver_type": "NSHostingView",
-            "lang": "swift",
-            "line": "L116"
-          },
-          {
-            "callee": "setContentCompressionResistancePriority",
-            "receiver_type": "NSHostingView",
-            "lang": "swift",
-            "line": "L117"
-          }
-        ]
-      },
-      "norm_label": ".touchbar()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L106"
-    },
-    {
-      "id": "sources_lyricora_services_touchbarservice_touchbarservice_updatetouchbarpresence",
-      "label": ".updateTouchBarPresence()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".updatetouchbarpresence()",
-      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L202"
-    },
-    {
-      "id": "sources_lyricora_views_touchbarlyricsview_touchbarlyricsview_init",
-      "label": ".init()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".init()",
-      "source_file": "Sources/Lyricora/Views/TouchBarLyricsView.swift",
-      "source_location": "L11"
-    },
-    {
-      "id": "tests_lyricoratests_lyricoratests_lyricoratests_testtouchbarmodes",
-      "label": ".testTouchBarModes()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".testtouchbarmodes()",
-      "source_file": "Tests/LyricoraTests/LyricoraTests.swift",
-      "source_location": "L95"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_flowlayout_init",
-      "label": ".init()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".init()",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L279"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_flowlayout_placesubviews",
-      "label": ".placeSubviews()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".placesubviews()",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L306"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_flowlayout_sizethatfits",
-      "label": ".sizeThatFits()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".sizethatfits()",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L284"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_lyriclinerow_formattime",
-      "label": ".formatTime()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".formattime()",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L158"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_lyricsview_init",
-      "label": ".init()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".init()",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L13"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_lyricsview_instrumentalview",
-      "label": ".instrumentalView()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".instrumentalview()",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L191"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_lyricsview_lyricsscrollview",
-      "label": ".lyricsScrollView()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".lyricsscrollview()",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L52"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_lyricsview_plainlyricsview",
-      "label": ".plainLyricsView()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".plainlyricsview()",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L228"
+      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
+      "source_location": "L86"
     },
     {
       "id": "sources_lyricora_app_lyricoraapp_appdelegate_applicationdidbecomeactive",
       "label": ".applicationDidBecomeActive()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "norm_label": ".applicationdidbecomeactive()",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L16"
+      "source_location": "L17"
     },
     {
       "id": "sources_lyricora_app_lyricoraapp_appdelegate_applicationdidfinishlaunching",
       "label": ".applicationDidFinishLaunching()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "metadata": {
@@ -1654,19 +1244,31 @@
       "label": ".applicationShouldHandleReopen()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "norm_label": ".applicationshouldhandlereopen()",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L11"
+      "source_location": "L12"
+    },
+    {
+      "id": "sources_lyricora_app_lyricoraapp_appdelegate_applicationwillterminate",
+      "label": ".applicationWillTerminate()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": ".applicationwillterminate()",
+      "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
+      "source_location": "L21"
     },
     {
       "id": "sources_lyricora_app_windowmanager_lyricorawindow_maketouchbar",
       "label": ".makeTouchBar()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "norm_label": ".maketouchbar()",
@@ -1678,7 +1280,7 @@
       "label": ".hideWindow()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "metadata": {
@@ -1687,32 +1289,32 @@
             "callee": "orderOut",
             "receiver_type": "NSWindow",
             "lang": "swift",
-            "line": "L128"
+            "line": "L135"
           }
         ]
       },
       "norm_label": ".hidewindow()",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L127"
+      "source_location": "L134"
     },
     {
       "id": "sources_lyricora_app_windowmanager_windowmanager_init",
       "label": ".init()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "norm_label": ".init()",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L36"
+      "source_location": "L37"
     },
     {
       "id": "sources_lyricora_app_windowmanager_windowmanager_setupfloatingwindow",
       "label": ".setupFloatingWindow()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "metadata": {
@@ -1721,32 +1323,32 @@
             "callee": "setFrameOrigin",
             "receiver_type": "NSWindow",
             "lang": "swift",
-            "line": "L83"
+            "line": "L85"
           },
           {
             "callee": "activate",
             "receiver_type": "NSApp",
             "lang": "swift",
-            "line": "L100"
+            "line": "L107"
           },
           {
             "callee": "makeKeyAndOrderFront",
             "receiver_type": "NSWindow",
             "lang": "swift",
-            "line": "L101"
+            "line": "L108"
           }
         ]
       },
       "norm_label": ".setupfloatingwindow()",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L40"
+      "source_location": "L41"
     },
     {
       "id": "sources_lyricora_app_windowmanager_windowmanager_showwindow",
       "label": ".showWindow()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "metadata": {
@@ -1755,38 +1357,38 @@
             "callee": "activate",
             "receiver_type": "NSApp",
             "lang": "swift",
-            "line": "L122"
+            "line": "L129"
           },
           {
             "callee": "makeKeyAndOrderFront",
             "receiver_type": "NSWindow",
             "lang": "swift",
-            "line": "L123"
+            "line": "L130"
           }
         ]
       },
       "norm_label": ".showwindow()",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L117"
+      "source_location": "L124"
     },
     {
       "id": "sources_lyricora_app_windowmanager_windowmanager_togglefullscreen",
       "label": ".toggleFullScreen()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "norm_label": ".togglefullscreen()",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L151"
+      "source_location": "L209"
     },
     {
       "id": "sources_lyricora_app_windowmanager_windowmanager_togglewindow",
       "label": ".toggleWindow()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "metadata": {
@@ -1795,44 +1397,72 @@
             "callee": "orderOut",
             "receiver_type": "NSWindow",
             "lang": "swift",
-            "line": "L111"
+            "line": "L118"
           }
         ]
       },
       "norm_label": ".togglewindow()",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L104"
+      "source_location": "L111"
+    },
+    {
+      "id": "sources_lyricora_app_windowmanager_windowmanager_transition",
+      "label": ".transition()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "equalTo",
+            "receiver_type": "NSWindow",
+            "lang": "swift",
+            "line": "L202"
+          },
+          {
+            "callee": "setFrame",
+            "receiver_type": "NSWindow",
+            "lang": "swift",
+            "line": "L206"
+          }
+        ]
+      },
+      "norm_label": ".transition()",
+      "source_file": "Sources/Lyricora/App/WindowManager.swift",
+      "source_location": "L139"
     },
     {
       "id": "sources_lyricora_app_windowmanager_windowmanager_windowdidenterfullscreen",
       "label": ".windowDidEnterFullScreen()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "norm_label": ".windowdidenterfullscreen()",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L162"
+      "source_location": "L220"
     },
     {
       "id": "sources_lyricora_app_windowmanager_windowmanager_windowdidexitfullscreen",
       "label": ".windowDidExitFullScreen()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "norm_label": ".windowdidexitfullscreen()",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L169"
+      "source_location": "L227"
     },
     {
       "id": "sources_lyricora_app_windowmanager_windowmanager_windowshouldclose",
       "label": ".windowShouldClose()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "metadata": {
@@ -1841,32 +1471,128 @@
             "callee": "orderOut",
             "receiver_type": "NSWindow",
             "lang": "swift",
-            "line": "L179"
+            "line": "L237"
           }
         ]
       },
       "norm_label": ".windowshouldclose()",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L178"
+      "source_location": "L236"
     },
     {
       "id": "sources_lyricora_app_windowmanager_windowmanager_windowwillenterfullscreen",
       "label": ".windowWillEnterFullScreen()",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "community_name": "WindowManager",
       "file_type": "code",
       "norm_label": ".windowwillenterfullscreen()",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L156"
+      "source_location": "L214"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_flowlayout_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L279"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_flowlayout_placesubviews",
+      "label": ".placeSubviews()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".placesubviews()",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L306"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_flowlayout_sizethatfits",
+      "label": ".sizeThatFits()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".sizethatfits()",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L284"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_lyriclinerow_formattime",
+      "label": ".formatTime()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".formattime()",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L158"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_lyricsview_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L13"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_lyricsview_instrumentalview",
+      "label": ".instrumentalView()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".instrumentalview()",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L191"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_lyricsview_lyricsscrollview",
+      "label": ".lyricsScrollView()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".lyricsscrollview()",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L52"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_lyricsview_plainlyricsview",
+      "label": ".plainLyricsView()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".plainlyricsview()",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L228"
     },
     {
       "id": "sources_lyricora_views_ambientbackdropview_ambientbackdropview_drawradialorb",
       "label": ".drawRadialOrb()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "community_name": "AmbientBackdropView",
       "file_type": "code",
       "metadata": {
@@ -1888,7 +1614,7 @@
       "label": ".init()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "community_name": "AmbientBackdropView",
       "file_type": "code",
       "norm_label": ".init()",
@@ -1900,7 +1626,7 @@
       "label": ".transitionTo()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "community_name": "AmbientBackdropView",
       "file_type": "code",
       "norm_label": ".transitionto()",
@@ -1912,7 +1638,7 @@
       "label": ".updatePalette()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "community_name": "AmbientBackdropView",
       "file_type": "code",
       "metadata": {
@@ -1940,7 +1666,7 @@
       "label": ".advance()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "community_name": "AmbientBackdropView",
       "file_type": "code",
       "norm_label": ".advance()",
@@ -1952,7 +1678,7 @@
       "label": ".extractDominantColors()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "community_name": "AmbientBackdropView",
       "file_type": "code",
       "metadata": {
@@ -1980,7 +1706,7 @@
       "label": ".init()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "community_name": "AmbientBackdropView",
       "file_type": "code",
       "norm_label": ".init()",
@@ -1992,7 +1718,7 @@
       "label": ".init()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "community_name": "AmbientBackdropView",
       "file_type": "code",
       "norm_label": ".init()",
@@ -2004,7 +1730,7 @@
       "label": ".lerp()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "community_name": "AmbientBackdropView",
       "file_type": "code",
       "norm_label": ".lerp()",
@@ -2016,7 +1742,7 @@
       "label": ".testAmbientTimeTracker()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "community_name": "AmbientBackdropView",
       "file_type": "code",
       "norm_label": ".testambienttimetracker()",
@@ -2024,45 +1750,11 @@
       "source_location": "L202"
     },
     {
-      "id": "tests_lyricoratests_lyricoratests_lyricoratests_testcolorextractorwithsyntheticimage",
-      "label": ".testColorExtractorWithSyntheticImage()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "metadata": {
-        "unresolved_calls": [
-          {
-            "callee": "lockFocus",
-            "receiver_type": "NSImage",
-            "lang": "swift",
-            "line": "L225"
-          },
-          {
-            "callee": "setFill",
-            "receiver_type": "NSColor",
-            "lang": "swift",
-            "line": "L226"
-          },
-          {
-            "callee": "unlockFocus",
-            "receiver_type": "NSImage",
-            "lang": "swift",
-            "line": "L228"
-          }
-        ]
-      },
-      "norm_label": ".testcolorextractorwithsyntheticimage()",
-      "source_file": "Tests/LyricoraTests/LyricoraTests.swift",
-      "source_location": "L221"
-    },
-    {
       "id": "tests_lyricoratests_lyricoratests_lyricoratests_testrgbcolorinterpolation",
       "label": ".testRGBColorInterpolation()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "community_name": "AmbientBackdropView",
       "file_type": "code",
       "norm_label": ".testrgbcolorinterpolation()",
@@ -2070,11 +1762,347 @@
       "source_location": "L180"
     },
     {
+      "id": "sources_lyricora_views_minihudview_minihudview_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "Sources/Lyricora/Views/MiniHUDView.swift",
+      "source_location": "L12"
+    },
+    {
+      "id": "sources_lyricora_views_touchbarlyricsview_touchbarlyricsview_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "Sources/Lyricora/Views/TouchBarLyricsView.swift",
+      "source_location": "L11"
+    },
+    {
+      "id": "sources_lyricora_views_windowdraghandle_dragnsview_mousedown",
+      "label": ".mouseDown()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "SwiftUI",
+      "file_type": "code",
+      "norm_label": ".mousedown()",
+      "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
+      "source_location": "L14"
+    },
+    {
+      "id": "sources_lyricora_views_windowdraghandle_windowdraghandle_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "SwiftUI",
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
+      "source_location": "L5"
+    },
+    {
+      "id": "sources_lyricora_views_windowdraghandle_windowdraghandle_makensview",
+      "label": ".makeNSView()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "SwiftUI",
+      "file_type": "code",
+      "norm_label": ".makensview()",
+      "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
+      "source_location": "L7"
+    },
+    {
+      "id": "sources_lyricora_views_windowdraghandle_windowdraghandle_updatensview",
+      "label": ".updateNSView()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "SwiftUI",
+      "file_type": "code",
+      "norm_label": ".updatensview()",
+      "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
+      "source_location": "L11"
+    },
+    {
+      "id": "sources_lyricora_views_windowdraghandle_windowdragpill_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "SwiftUI",
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
+      "source_location": "L21"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_cyclemode",
+      "label": ".cycleMode()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "norm_label": ".cyclemode()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L82"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_dismissmodaltouchbar",
+      "label": ".dismissModalTouchBar()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "norm_label": ".dismissmodaltouchbar()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L159"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_ensuresystemtrayitemregistered",
+      "label": ".ensureSystemTrayItemRegistered()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "setContentHuggingPriority",
+            "receiver_type": "NSHostingView",
+            "lang": "swift",
+            "line": "L186"
+          },
+          {
+            "callee": "setContentCompressionResistancePriority",
+            "receiver_type": "NSHostingView",
+            "lang": "swift",
+            "line": "L187"
+          },
+          {
+            "callee": "responds",
+            "receiver_type": "NSTouchBarItem",
+            "lang": "swift",
+            "line": "L191"
+          },
+          {
+            "callee": "perform",
+            "receiver_type": "NSTouchBarItem",
+            "lang": "swift",
+            "line": "L192"
+          }
+        ]
+      },
+      "norm_label": ".ensuresystemtrayitemregistered()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L175"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_handlefocusstatechange",
+      "label": ".handleFocusStateChange()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "norm_label": ".handlefocusstatechange()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L72"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L32"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_maketouchbar",
+      "label": ".makeTouchBar()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "norm_label": ".maketouchbar()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L99"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_presentmodaltouchbar",
+      "label": ".presentModalTouchBar()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "norm_label": ".presentmodaltouchbar()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L145"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_removesystemtrayitem",
+      "label": ".removeSystemTrayItem()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "responds",
+            "receiver_type": "NSTouchBarItem",
+            "lang": "swift",
+            "line": "L200"
+          },
+          {
+            "callee": "perform",
+            "receiver_type": "NSTouchBarItem",
+            "lang": "swift",
+            "line": "L201"
+          }
+        ]
+      },
+      "norm_label": ".removesystemtrayitem()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L197"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_setcloseboxvisible",
+      "label": ".setCloseBoxVisible()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "norm_label": ".setcloseboxvisible()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L129"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_setcontrolstrippresence",
+      "label": ".setControlStripPresence()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "norm_label": ".setcontrolstrippresence()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L137"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_setmode",
+      "label": ".setMode()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "norm_label": ".setmode()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L78"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_setupnotificationobservers",
+      "label": ".setupNotificationObservers()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "norm_label": ".setupnotificationobservers()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L45"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_setuptouchbar",
+      "label": ".setupTouchBar()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "norm_label": ".setuptouchbar()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L93"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_touchbar",
+      "label": ".touchBar()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "setContentHuggingPriority",
+            "receiver_type": "NSHostingView",
+            "lang": "swift",
+            "line": "L120"
+          },
+          {
+            "callee": "setContentCompressionResistancePriority",
+            "receiver_type": "NSHostingView",
+            "lang": "swift",
+            "line": "L121"
+          }
+        ]
+      },
+      "norm_label": ".touchbar()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L110"
+    },
+    {
+      "id": "sources_lyricora_services_touchbarservice_touchbarservice_updatetouchbarpresence",
+      "label": ".updateTouchBarPresence()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "norm_label": ".updatetouchbarpresence()",
+      "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
+      "source_location": "L207"
+    },
+    {
+      "id": "tests_lyricoratests_lyricoratests_lyricoratests_testtouchbarmodes",
+      "label": ".testTouchBarModes()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "TouchBarService",
+      "file_type": "code",
+      "norm_label": ".testtouchbarmodes()",
+      "source_file": "Tests/LyricoraTests/LyricoraTests.swift",
+      "source_location": "L95"
+    },
+    {
       "id": "sources_lyricora_views_ambientcanvasview_ambientcanvasview_bottomtransportbar",
       "label": ".bottomTransportBar()",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": ".bottomtransportbar()",
@@ -2086,7 +2114,7 @@
       "label": ".formatDuration()",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": ".formatduration()",
@@ -2098,7 +2126,7 @@
       "label": ".init()",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": ".init()",
@@ -2110,7 +2138,7 @@
       "label": ".removeMouseMonitor()",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "metadata": {
@@ -2132,7 +2160,7 @@
       "label": ".setupMouseMonitor()",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "metadata": {
@@ -2154,7 +2182,7 @@
       "label": ".startBreathingAnimation()",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": ".startbreathinganimation()",
@@ -2166,7 +2194,7 @@
       "label": ".triggerControlsVisibility()",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "metadata": {
@@ -2194,7 +2222,7 @@
       "label": ".blur()",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": ".blur()",
@@ -2206,7 +2234,7 @@
       "label": ".body()",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": ".body()",
@@ -2214,109 +2242,99 @@
       "source_location": "L492"
     },
     {
-      "id": "sources_lyricora_app_windowmanager_windowmanager_transition",
-      "label": ".transition()",
+      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_applyscreenawakestate",
+      "label": ".applyScreenAwakeState()",
       "_callable": true,
       "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
+      "community": 9,
+      "community_name": "SleepPreventerService",
       "file_type": "code",
-      "metadata": {
-        "unresolved_calls": [
-          {
-            "callee": "setFrame",
-            "receiver_type": "NSWindow",
-            "lang": "swift",
-            "line": "L148"
-          }
-        ]
-      },
-      "norm_label": ".transition()",
-      "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L132"
+      "norm_label": ".applyscreenawakestate()",
+      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
+      "source_location": "L31"
+    },
+    {
+      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_cleanup",
+      "label": ".cleanup()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "SleepPreventerService",
+      "file_type": "code",
+      "norm_label": ".cleanup()",
+      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
+      "source_location": "L72"
+    },
+    {
+      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_disablescreenawake",
+      "label": ".disableScreenAwake()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "SleepPreventerService",
+      "file_type": "code",
+      "norm_label": ".disablescreenawake()",
+      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
+      "source_location": "L63"
+    },
+    {
+      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_enablescreenawake",
+      "label": ".enableScreenAwake()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "SleepPreventerService",
+      "file_type": "code",
+      "norm_label": ".enablescreenawake()",
+      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
+      "source_location": "L39"
+    },
+    {
+      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_init",
+      "label": ".init()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "SleepPreventerService",
+      "file_type": "code",
+      "norm_label": ".init()",
+      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
+      "source_location": "L20"
     },
     {
       "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_togglescreenawake",
       "label": ".toggleScreenAwake()",
       "_callable": true,
       "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
+      "community": 9,
+      "community_name": "SleepPreventerService",
       "file_type": "code",
       "norm_label": ".togglescreenawake()",
       "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
       "source_location": "L27"
     },
     {
-      "id": "sources_lyricora_views_contentview_contentview_init",
-      "label": ".init()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": ".init()",
-      "source_file": "Sources/Lyricora/Views/ContentView.swift",
-      "source_location": "L12"
-    },
-    {
-      "id": "sources_lyricora_views_contentview_contentview_switchmode",
-      "label": ".switchMode()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": ".switchmode()",
-      "source_file": "Sources/Lyricora/Views/ContentView.swift",
-      "source_location": "L281"
-    },
-    {
-      "id": "sources_lyricora_rendering_karaoketextrenderer_karaokewordrenderer_draw",
-      "label": ".draw()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "KaraokeWordText",
-      "file_type": "code",
-      "norm_label": ".draw()",
-      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
-      "source_location": "L25"
-    },
-    {
-      "id": "sources_lyricora_rendering_karaoketextrenderer_karaokewordrenderer_init",
-      "label": ".init()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "KaraokeWordText",
-      "file_type": "code",
-      "norm_label": ".init()",
-      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
-      "source_location": "L11"
-    },
-    {
-      "id": "sources_lyricora_rendering_karaoketextrenderer_karaokewordtext_init",
-      "label": ".init()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "KaraokeWordText",
-      "file_type": "code",
-      "norm_label": ".init()",
-      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
-      "source_location": "L86"
-    },
-    {
-      "id": "equatable",
-      "label": "Equatable",
+      "id": "codable",
+      "label": "Codable",
       "_origin": "ast",
       "community": 0,
       "community_name": "String",
       "file_type": "code",
-      "norm_label": "equatable",
+      "norm_label": "codable",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "foundation",
+      "label": "Foundation",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "foundation",
+      "source_file": "Sources/Lyricora/Models/LyricModels.swift",
+      "source_location": "L1",
+      "type": "module"
     },
     {
       "id": "hashable",
@@ -2330,26 +2348,16 @@
       "source_location": ""
     },
     {
-      "id": "identifiable",
-      "label": "Identifiable",
+      "id": "lyricora",
+      "label": "Lyricora",
       "_origin": "ast",
       "community": 0,
       "community_name": "String",
       "file_type": "code",
-      "norm_label": "identifiable",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sendable",
-      "label": "Sendable",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "String",
-      "file_type": "code",
-      "norm_label": "sendable",
-      "source_file": "",
-      "source_location": ""
+      "norm_label": "lyricora",
+      "source_file": "Tests/LyricoraTests/LyricoraTests.swift",
+      "source_location": "L2",
+      "type": "module"
     },
     {
       "id": "sources_lyricora_models_lyricmodels",
@@ -2472,6 +2480,83 @@
       "source_location": ""
     },
     {
+      "id": "sources_lyricora_models_playbackstate",
+      "label": "PlaybackState.swift",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "playbackstate.swift",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_playbackstatus_isplaying",
+      "label": ".isPlaying",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": ".isplaying",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L10"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_playbackstatus_paused",
+      "label": "paused",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "paused",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L6"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_playbackstatus_playing",
+      "label": "playing",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "playing",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L5"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_playbackstatus_stopped",
+      "label": "stopped",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "stopped",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L7"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_playbackstatus_unknown",
+      "label": "unknown",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "unknown",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L8"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_swift_bool",
+      "label": "Bool",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "bool",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "sources_lyricora_models_playbackstate_swift_timeinterval",
       "label": "TimeInterval",
       "_origin": "ast",
@@ -2494,6 +2579,50 @@
       "source_location": ""
     },
     {
+      "id": "sources_lyricora_services_lyricsservice",
+      "label": "LyricsService.swift",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "lyricsservice.swift",
+      "source_file": "Sources/Lyricora/Services/LyricsService.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "sources_lyricora_services_lyricsservice_swift_bool",
+      "label": "Bool",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "bool",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_services_lyricsservice_swift_double",
+      "label": "Double",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "double",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_services_lyricsservice_swift_int",
+      "label": "Int",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "int",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "sources_lyricora_services_lyricsservice_swift_timeinterval",
       "label": "TimeInterval",
       "_origin": "ast",
@@ -2503,6 +2632,29 @@
       "norm_label": "timeinterval",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "tests_lyricoratests_lyricoratests",
+      "label": "LyricoraTests.swift",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "lyricoratests.swift",
+      "source_file": "Tests/LyricoraTests/LyricoraTests.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "xctest",
+      "label": "XCTest",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "String",
+      "file_type": "code",
+      "norm_label": "xctest",
+      "source_file": "Tests/LyricoraTests/LyricoraTests.swift",
+      "source_location": "L1",
+      "type": "module"
     },
     {
       "id": "xctestcase",
@@ -2516,28 +2668,7 @@
       "source_location": ""
     },
     {
-      "id": "sources_lyricora_app_lyricoraapp_lyricoraapp_menubarcontent",
-      "label": ".menuBarContent",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "SpotifyObserver",
-      "file_type": "code",
-      "metadata": {
-        "unresolved_calls": [
-          {
-            "callee": "terminate",
-            "receiver_type": "NSApplication",
-            "lang": "swift",
-            "line": "L134"
-          }
-        ]
-      },
-      "norm_label": ".menubarcontent",
-      "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L50"
-    },
-    {
-      "id": "sources_lyricora_app_windowmanager_swift_nsevent",
+      "id": "nsevent",
       "label": "NSEvent",
       "_origin": "ast",
       "community": 1,
@@ -2614,6 +2745,17 @@
       "source_location": ""
     },
     {
+      "id": "sources_lyricora_views_contentview",
+      "label": "ContentView.swift",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "SpotifyObserver",
+      "file_type": "code",
+      "norm_label": "contentview.swift",
+      "source_file": "Sources/Lyricora/Views/ContentView.swift",
+      "source_location": "L1"
+    },
+    {
       "id": "sources_lyricora_views_contentview_contentview_body",
       "label": ".body",
       "_origin": "ast",
@@ -2636,6 +2778,17 @@
       "source_location": "L216"
     },
     {
+      "id": "sources_lyricora_views_contentview_contentview_currentmode",
+      "label": ".currentMode",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "SpotifyObserver",
+      "file_type": "code",
+      "norm_label": ".currentmode",
+      "source_file": "Sources/Lyricora/Views/ContentView.swift",
+      "source_location": "L21"
+    },
+    {
       "id": "sources_lyricora_views_contentview_contentview_fulloverlayview",
       "label": ".fullOverlayView",
       "_origin": "ast",
@@ -2647,26 +2800,26 @@
       "source_location": "L88"
     },
     {
-      "id": "sources_lyricora_views_contentview_swift_timeinterval",
-      "label": "TimeInterval",
+      "id": "sources_lyricora_views_contentview_contentview_headerview",
+      "label": ".headerView",
       "_origin": "ast",
       "community": 1,
       "community_name": "SpotifyObserver",
       "file_type": "code",
-      "norm_label": "timeinterval",
-      "source_file": "",
-      "source_location": ""
+      "norm_label": ".headerview",
+      "source_file": "Sources/Lyricora/Views/ContentView.swift",
+      "source_location": "L128"
     },
     {
-      "id": "sources_lyricora_views_minihudview",
-      "label": "MiniHUDView.swift",
+      "id": "sources_lyricora_views_contentview_swift_viewmode",
+      "label": "ViewMode",
       "_origin": "ast",
       "community": 1,
       "community_name": "SpotifyObserver",
       "file_type": "code",
-      "norm_label": "minihudview.swift",
-      "source_file": "Sources/Lyricora/Views/MiniHUDView.swift",
-      "source_location": "L1"
+      "norm_label": "viewmode",
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "sources_lyricora_views_minihudview_minihudview_body",
@@ -2680,39 +2833,6 @@
       "source_location": "L22"
     },
     {
-      "id": "sources_lyricora_views_minihudview_swift_bool",
-      "label": "Bool",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "SpotifyObserver",
-      "file_type": "code",
-      "norm_label": "bool",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_minihudview_swift_timeinterval",
-      "label": "TimeInterval",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "SpotifyObserver",
-      "file_type": "code",
-      "norm_label": "timeinterval",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_minihudview_swift_void",
-      "label": "Void",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "SpotifyObserver",
-      "file_type": "code",
-      "norm_label": "void",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "sources_lyricora_views_touchbarlyricsview_touchbarlyricsview_centerlyricsview",
       "label": ".centerLyricsView",
       "_origin": "ast",
@@ -2724,133 +2844,142 @@
       "source_location": "L85"
     },
     {
-      "id": "context",
-      "label": "Context",
+      "id": "string",
+      "label": "String",
       "_origin": "ast",
-      "community": 10,
-      "community_name": "WindowDragHandle",
+      "community": 1,
+      "community_name": "SpotifyObserver",
       "file_type": "code",
-      "norm_label": "context",
+      "norm_label": "string",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "nsview",
-      "label": "NSView",
+      "id": "timeinterval",
+      "label": "TimeInterval",
       "_origin": "ast",
-      "community": 10,
-      "community_name": "WindowDragHandle",
+      "community": 1,
+      "community_name": "SpotifyObserver",
       "file_type": "code",
-      "norm_label": "nsview",
+      "norm_label": "timeinterval",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "nsviewrepresentable",
-      "label": "NSViewRepresentable",
+      "id": "void",
+      "label": "Void",
       "_origin": "ast",
-      "community": 10,
-      "community_name": "WindowDragHandle",
+      "community": 1,
+      "community_name": "SpotifyObserver",
       "file_type": "code",
-      "norm_label": "nsviewrepresentable",
+      "norm_label": "void",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "sources_lyricora_views_windowdraghandle_swift_nsevent",
-      "label": "NSEvent",
+      "id": "font",
+      "label": "Font",
       "_origin": "ast",
       "community": 10,
-      "community_name": "WindowDragHandle",
+      "community_name": "KaraokeWordText",
       "file_type": "code",
-      "norm_label": "nsevent",
+      "norm_label": "font",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "sources_lyricora_views_windowdraghandle_windowdragpill_body",
+      "id": "sources_lyricora_rendering_karaoketextrenderer",
+      "label": "KaraokeTextRenderer.swift",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "KaraokeWordText",
+      "file_type": "code",
+      "norm_label": "karaoketextrenderer.swift",
+      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "sources_lyricora_rendering_karaoketextrenderer_karaokewordtext_body",
       "label": ".body",
       "_origin": "ast",
       "community": 10,
-      "community_name": "WindowDragHandle",
+      "community_name": "KaraokeWordText",
       "file_type": "code",
       "norm_label": ".body",
-      "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
-      "source_location": "L23"
+      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
+      "source_location": "L104"
     },
     {
-      "id": "iopmassertionid",
-      "label": "IOPMAssertionID",
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "SleepPreventerService",
-      "file_type": "code",
-      "norm_label": "iopmassertionid",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_isscreenawakeenabled",
-      "label": ".isScreenAwakeEnabled",
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "SleepPreventerService",
-      "file_type": "code",
-      "norm_label": ".isscreenawakeenabled",
-      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
-      "source_location": "L13"
-    },
-    {
-      "id": "sources_lyricora_services_sleeppreventerservice_swift_bool",
+      "id": "sources_lyricora_rendering_karaoketextrenderer_swift_bool",
       "label": "Bool",
       "_origin": "ast",
-      "community": 11,
-      "community_name": "SleepPreventerService",
+      "community": 10,
+      "community_name": "KaraokeWordText",
       "file_type": "code",
       "norm_label": "bool",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "lyricora",
-      "label": "Lyricora",
+      "id": "sources_lyricora_rendering_karaoketextrenderer_swift_color",
+      "label": "Color",
       "_origin": "ast",
-      "community": 12,
-      "community_name": "LyricoraTests.swift",
+      "community": 10,
+      "community_name": "KaraokeWordText",
       "file_type": "code",
-      "norm_label": "lyricora",
-      "source_file": "Tests/LyricoraTests/LyricoraTests.swift",
-      "source_location": "L2",
-      "type": "module"
+      "norm_label": "color",
+      "source_file": "",
+      "source_location": ""
     },
     {
-      "id": "tests_lyricoratests_lyricoratests",
-      "label": "LyricoraTests.swift",
+      "id": "sources_lyricora_rendering_karaoketextrenderer_swift_double",
+      "label": "Double",
       "_origin": "ast",
-      "community": 12,
-      "community_name": "LyricoraTests.swift",
+      "community": 10,
+      "community_name": "KaraokeWordText",
       "file_type": "code",
-      "norm_label": "lyricoratests.swift",
-      "source_file": "Tests/LyricoraTests/LyricoraTests.swift",
-      "source_location": "L1"
+      "norm_label": "double",
+      "source_file": "",
+      "source_location": ""
     },
     {
-      "id": "xctest",
-      "label": "XCTest",
+      "id": "sources_lyricora_rendering_karaoketextrenderer_swift_graphicscontext",
+      "label": "GraphicsContext",
       "_origin": "ast",
-      "community": 12,
-      "community_name": "LyricoraTests.swift",
+      "community": 10,
+      "community_name": "KaraokeWordText",
       "file_type": "code",
-      "norm_label": "xctest",
-      "source_file": "Tests/LyricoraTests/LyricoraTests.swift",
-      "source_location": "L1",
-      "type": "module"
+      "norm_label": "graphicscontext",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "text",
+      "label": "Text",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "KaraokeWordText",
+      "file_type": "code",
+      "norm_label": "text",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "textrenderer",
+      "label": "TextRenderer",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "KaraokeWordText",
+      "file_type": "code",
+      "norm_label": "textrenderer",
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "build_app",
       "label": "build_app.sh",
       "_origin": "ast",
-      "community": 13,
+      "community": 11,
       "community_name": "build_app.sh",
       "file_type": "code",
       "metadata": {
@@ -2865,7 +2994,7 @@
       "id": "build_app_sh__entry",
       "label": "build_app.sh script",
       "_origin": "ast",
-      "community": 13,
+      "community": 11,
       "community_name": "build_app.sh",
       "file_type": "code",
       "metadata": {
@@ -2880,7 +3009,7 @@
       "id": "package",
       "label": "Package.swift",
       "_origin": "ast",
-      "community": 14,
+      "community": 12,
       "community_name": "Package.swift",
       "file_type": "code",
       "norm_label": "package.swift",
@@ -2891,7 +3020,7 @@
       "id": "packagedescription",
       "label": "PackageDescription",
       "_origin": "ast",
-      "community": 14,
+      "community": 12,
       "community_name": "Package.swift",
       "file_type": "code",
       "norm_label": "packagedescription",
@@ -2900,21 +3029,791 @@
       "type": "module"
     },
     {
-      "id": "app",
-      "label": "App",
+      "id": "sources_lyricora_app_windowmanager_swift_nsevent",
+      "label": "NSEvent",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
+      "community": 13,
+      "community_name": "NSEvent",
       "file_type": "code",
-      "norm_label": "app",
+      "norm_label": "nsevent",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_contentview_swift_timeinterval",
+      "label": "TimeInterval",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "TimeInterval",
+      "file_type": "code",
+      "norm_label": "timeinterval",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_contentview_swift_void",
+      "label": "Void",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "Void",
+      "file_type": "code",
+      "norm_label": "void",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "nsapplication",
+      "label": "NSApplication",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "nsapplication",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "nsapplicationdelegate",
+      "label": "NSApplicationDelegate",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "nsapplicationdelegate",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "nsobject",
+      "label": "NSObject",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "nsobject",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "nsrect",
+      "label": "NSRect",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "nsrect",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "nswindow",
+      "label": "NSWindow",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "nswindow",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "nswindowdelegate",
+      "label": "NSWindowDelegate",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "nswindowdelegate",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_app_lyricoraapp_swift_bool",
+      "label": "Bool",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "bool",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_app_lyricoraapp_swift_notification",
+      "label": "Notification",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "notification",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_app_windowmanager_lyricorawindow_acceptsfirstresponder",
+      "label": ".acceptsFirstResponder",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": ".acceptsfirstresponder",
+      "source_file": "Sources/Lyricora/App/WindowManager.swift",
+      "source_location": "L9"
+    },
+    {
+      "id": "sources_lyricora_app_windowmanager_lyricorawindow_canbecomekey",
+      "label": ".canBecomeKey",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": ".canbecomekey",
+      "source_file": "Sources/Lyricora/App/WindowManager.swift",
+      "source_location": "L7"
+    },
+    {
+      "id": "sources_lyricora_app_windowmanager_lyricorawindow_canbecomemain",
+      "label": ".canBecomeMain",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": ".canbecomemain",
+      "source_file": "Sources/Lyricora/App/WindowManager.swift",
+      "source_location": "L8"
+    },
+    {
+      "id": "sources_lyricora_app_windowmanager_swift_bool",
+      "label": "Bool",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "bool",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_app_windowmanager_swift_notification",
+      "label": "Notification",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "notification",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_app_windowmanager_swift_nstouchbar",
+      "label": "NSTouchBar",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "nstouchbar",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_app_windowmanager_swift_viewmode",
+      "label": "ViewMode",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": "viewmode",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_app_windowmanager_windowmanager_panel",
+      "label": ".panel",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "WindowManager",
+      "file_type": "code",
+      "norm_label": ".panel",
+      "source_file": "Sources/Lyricora/App/WindowManager.swift",
+      "source_location": "L31"
+    },
+    {
+      "id": "cgrect",
+      "label": "CGRect",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "cgrect",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "layout",
+      "label": "Layout",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "layout",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "proposedviewsize",
+      "label": "ProposedViewSize",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "proposedviewsize",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview",
+      "label": "LyricsView.swift",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "lyricsview.swift",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_lyriclinerow_body",
+      "label": ".body",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".body",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L109"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_lyriclinerow_timeindicator",
+      "label": ".timeIndicator",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".timeindicator",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L150"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_lyricsview_body",
+      "label": ".body",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".body",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L23"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_lyricsview_emptystateview",
+      "label": ".emptyStateView",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".emptystateview",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L258"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_lyricsview_loadingview",
+      "label": ".loadingView",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".loadingview",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L246"
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_swift_bool",
+      "label": "Bool",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "bool",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_swift_cgfloat",
+      "label": "CGFloat",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "cgfloat",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_swift_cgsize",
+      "label": "CGSize",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "cgsize",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_swift_never",
+      "label": "Never",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "never",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_swift_task",
+      "label": "Task",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "task",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_swift_timeinterval",
+      "label": "TimeInterval",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "timeinterval",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_swift_uuid",
+      "label": "UUID",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "uuid",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_swift_void",
+      "label": "Void",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "void",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_lyricsview_wrappingwordview_body",
+      "label": ".body",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": ".body",
+      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
+      "source_location": "L171"
+    },
+    {
+      "id": "subviews",
+      "label": "Subviews",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "subviews",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "LyricsView",
+      "file_type": "code",
+      "norm_label": "view",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "cgpoint",
+      "label": "CGPoint",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "cgpoint",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "date",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "equatable",
+      "label": "Equatable",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "equatable",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sendable",
+      "label": "Sendable",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "sendable",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_ambientbackdropview_ambientbackdropview_body",
+      "label": ".body",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": ".body",
+      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
+      "source_location": "L248"
+    },
+    {
+      "id": "sources_lyricora_views_ambientbackdropview_rgbcolor_color",
+      "label": ".color",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": ".color",
+      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
+      "source_location": "L16"
+    },
+    {
+      "id": "sources_lyricora_views_ambientbackdropview_swift_bool",
+      "label": "Bool",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "bool",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_ambientbackdropview_swift_cgfloat",
+      "label": "CGFloat",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "cgfloat",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_ambientbackdropview_swift_color",
+      "label": "Color",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "color",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_ambientbackdropview_swift_double",
+      "label": "Double",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "double",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_ambientbackdropview_swift_graphicscontext",
+      "label": "GraphicsContext",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "graphicscontext",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_ambientbackdropview_swift_nsimage",
+      "label": "NSImage",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "AmbientBackdropView",
+      "file_type": "code",
+      "norm_label": "nsimage",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "caseiterable",
+      "label": "CaseIterable",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "caseiterable",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "identifiable",
+      "label": "Identifiable",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "identifiable",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_swift_cgsize",
+      "label": "CGSize",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "cgsize",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_touchbarlyricsmode_iconname",
+      "label": ".iconName",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": ".iconname",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L86"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_touchbarlyricsmode_id",
+      "label": ".id",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": ".id",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L84"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_touchbarlyricsmode_linebyline",
+      "label": "lineByLine",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "linebyline",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L81"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_touchbarlyricsmode_off",
+      "label": "off",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "off",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L80"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_touchbarlyricsmode_wordfill",
+      "label": "wordFill",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "wordfill",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L82"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_viewmode_ambientcanvas",
+      "label": "ambientCanvas",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "ambientcanvas",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L52"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_viewmode_fulloverlay",
+      "label": "fullOverlay",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "fulloverlay",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L51"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_viewmode_iconname",
+      "label": ".iconName",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": ".iconname",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L56"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_viewmode_id",
+      "label": ".id",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": ".id",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L54"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_viewmode_minihud",
+      "label": "miniHUD",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "minihud",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L50"
+    },
+    {
+      "id": "sources_lyricora_models_playbackstate_viewmode_windowsize",
+      "label": ".windowSize",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": ".windowsize",
+      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
+      "source_location": "L67"
+    },
+    {
+      "id": "sources_lyricora_views_minihudview",
+      "label": "MiniHUDView.swift",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "minihudview.swift",
+      "source_file": "Sources/Lyricora/Views/MiniHUDView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "sources_lyricora_views_minihudview_swift_bool",
+      "label": "Bool",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "bool",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_minihudview_swift_timeinterval",
+      "label": "TimeInterval",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "timeinterval",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_minihudview_swift_void",
+      "label": "Void",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "void",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_touchbarlyricsview_swift_bool",
+      "label": "Bool",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": "bool",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_touchbarlyricsview_touchbarlyricsview_body",
+      "label": ".body",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "ViewMode",
+      "file_type": "code",
+      "norm_label": ".body",
+      "source_file": "Sources/Lyricora/Views/TouchBarLyricsView.swift",
+      "source_location": "L35"
     },
     {
       "id": "appkit",
       "label": "AppKit",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "appkit",
@@ -2923,21 +3822,10 @@
       "type": "module"
     },
     {
-      "id": "codable",
-      "label": "Codable",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "codable",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "combine",
       "label": "Combine",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "combine",
@@ -2946,34 +3834,43 @@
       "type": "module"
     },
     {
-      "id": "foundation",
-      "label": "Foundation",
+      "id": "context",
+      "label": "Context",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
-      "norm_label": "foundation",
-      "source_file": "Sources/Lyricora/Models/LyricModels.swift",
-      "source_location": "L1",
-      "type": "module"
+      "norm_label": "context",
+      "source_file": "",
+      "source_location": ""
     },
     {
-      "id": "iokit_pwr_mgt",
-      "label": "IOKit.pwr_mgt",
+      "id": "nsview",
+      "label": "NSView",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
-      "norm_label": "iokit.pwr_mgt",
-      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
-      "source_location": "L2",
-      "type": "module"
+      "norm_label": "nsview",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "nsviewrepresentable",
+      "label": "NSViewRepresentable",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "SwiftUI",
+      "file_type": "code",
+      "norm_label": "nsviewrepresentable",
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "observation",
       "label": "Observation",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "observation",
@@ -2985,7 +3882,7 @@
       "id": "quartzcore",
       "label": "QuartzCore",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "quartzcore",
@@ -2994,21 +3891,10 @@
       "type": "module"
     },
     {
-      "id": "scene",
-      "label": "Scene",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "scene",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "sources_lyricora_app_lyricoraapp",
       "label": "LyricoraApp.swift",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "lyricoraapp.swift",
@@ -3016,32 +3902,10 @@
       "source_location": "L1"
     },
     {
-      "id": "sources_lyricora_app_lyricoraapp_lyricoraapp_body",
-      "label": ".body",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": ".body",
-      "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L32"
-    },
-    {
-      "id": "sources_lyricora_app_lyricoraapp_swift_view",
-      "label": "View",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "view",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "sources_lyricora_app_windowmanager",
       "label": "WindowManager.swift",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "windowmanager.swift",
@@ -3049,142 +3913,10 @@
       "source_location": "L1"
     },
     {
-      "id": "sources_lyricora_models_playbackstate",
-      "label": "PlaybackState.swift",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "playbackstate.swift",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L1"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_playbackstatus_isplaying",
-      "label": ".isPlaying",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": ".isplaying",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L10"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_playbackstatus_paused",
-      "label": "paused",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "paused",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L6"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_playbackstatus_playing",
-      "label": "playing",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "playing",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L5"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_playbackstatus_stopped",
-      "label": "stopped",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "stopped",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L7"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_playbackstatus_unknown",
-      "label": "unknown",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "unknown",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L8"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_swift_bool",
-      "label": "Bool",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "bool",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_services_lyricsservice",
-      "label": "LyricsService.swift",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "lyricsservice.swift",
-      "source_file": "Sources/Lyricora/Services/LyricsService.swift",
-      "source_location": "L1"
-    },
-    {
-      "id": "sources_lyricora_services_lyricsservice_swift_bool",
-      "label": "Bool",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "bool",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_services_lyricsservice_swift_double",
-      "label": "Double",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "double",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_services_lyricsservice_swift_int",
-      "label": "Int",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "int",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_services_sleeppreventerservice",
-      "label": "SleepPreventerService.swift",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "SwiftUI",
-      "file_type": "code",
-      "norm_label": "sleeppreventerservice.swift",
-      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
-      "source_location": "L1"
-    },
-    {
       "id": "sources_lyricora_services_spotifyobserver",
       "label": "SpotifyObserver.swift",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "spotifyobserver.swift",
@@ -3195,7 +3927,7 @@
       "id": "sources_lyricora_services_touchbarservice",
       "label": "TouchBarService.swift",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "touchbarservice.swift",
@@ -3206,7 +3938,7 @@
       "id": "sources_lyricora_views_ambientbackdropview",
       "label": "AmbientBackdropView.swift",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "ambientbackdropview.swift",
@@ -3217,7 +3949,7 @@
       "id": "sources_lyricora_views_touchbarlyricsview",
       "label": "TouchBarLyricsView.swift",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "touchbarlyricsview.swift",
@@ -3228,7 +3960,7 @@
       "id": "sources_lyricora_views_windowdraghandle",
       "label": "WindowDragHandle.swift",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "windowdraghandle.swift",
@@ -3236,10 +3968,32 @@
       "source_location": "L1"
     },
     {
+      "id": "sources_lyricora_views_windowdraghandle_swift_nsevent",
+      "label": "NSEvent",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "SwiftUI",
+      "file_type": "code",
+      "norm_label": "nsevent",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_views_windowdraghandle_windowdragpill_body",
+      "label": ".body",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "SwiftUI",
+      "file_type": "code",
+      "norm_label": ".body",
+      "source_file": "Sources/Lyricora/Views/WindowDragHandle.swift",
+      "source_location": "L23"
+    },
+    {
       "id": "swiftui",
       "label": "SwiftUI",
       "_origin": "ast",
-      "community": 2,
+      "community": 6,
       "community_name": "SwiftUI",
       "file_type": "code",
       "norm_label": "swiftui",
@@ -3248,21 +4002,10 @@
       "type": "module"
     },
     {
-      "id": "caseiterable",
-      "label": "CaseIterable",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": "caseiterable",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "nscustomtouchbaritem",
       "label": "NSCustomTouchBarItem",
       "_origin": "ast",
-      "community": 3,
+      "community": 7,
       "community_name": "TouchBarService",
       "file_type": "code",
       "norm_label": "nscustomtouchbaritem",
@@ -3273,7 +4016,7 @@
       "id": "nstouchbardelegate",
       "label": "NSTouchBarDelegate",
       "_origin": "ast",
-      "community": 3,
+      "community": 7,
       "community_name": "TouchBarService",
       "file_type": "code",
       "norm_label": "nstouchbardelegate",
@@ -3284,7 +4027,7 @@
       "id": "nstouchbaritem",
       "label": "NSTouchBarItem",
       "_origin": "ast",
-      "community": 3,
+      "community": 7,
       "community_name": "TouchBarService",
       "file_type": "code",
       "norm_label": "nstouchbaritem",
@@ -3292,65 +4035,10 @@
       "source_location": ""
     },
     {
-      "id": "sources_lyricora_models_playbackstate_touchbarlyricsmode_iconname",
-      "label": ".iconName",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".iconname",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L86"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_touchbarlyricsmode_id",
-      "label": ".id",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".id",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L84"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_touchbarlyricsmode_linebyline",
-      "label": "lineByLine",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": "linebyline",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L81"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_touchbarlyricsmode_off",
-      "label": "off",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": "off",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L80"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_touchbarlyricsmode_wordfill",
-      "label": "wordFill",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": "wordfill",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L82"
-    },
-    {
       "id": "sources_lyricora_services_touchbarservice_swift_bool",
       "label": "Bool",
       "_origin": "ast",
-      "community": 3,
+      "community": 7,
       "community_name": "TouchBarService",
       "file_type": "code",
       "norm_label": "bool",
@@ -3361,7 +4049,7 @@
       "id": "sources_lyricora_services_touchbarservice_swift_nstouchbar",
       "label": "NSTouchBar",
       "_origin": "ast",
-      "community": 3,
+      "community": 7,
       "community_name": "TouchBarService",
       "file_type": "code",
       "norm_label": "nstouchbar",
@@ -3372,7 +4060,7 @@
       "id": "sources_lyricora_services_touchbarservice_touchbarservice_mode",
       "label": ".mode",
       "_origin": "ast",
-      "community": 3,
+      "community": 7,
       "community_name": "TouchBarService",
       "file_type": "code",
       "norm_label": ".mode",
@@ -3380,508 +4068,13 @@
       "source_location": "L14"
     },
     {
-      "id": "sources_lyricora_views_touchbarlyricsview_swift_bool",
-      "label": "Bool",
+      "id": "touchbarlyricsmode",
+      "label": "TouchBarLyricsMode",
       "_origin": "ast",
-      "community": 3,
+      "community": 7,
       "community_name": "TouchBarService",
       "file_type": "code",
-      "norm_label": "bool",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_touchbarlyricsview_touchbarlyricsview_body",
-      "label": ".body",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TouchBarService",
-      "file_type": "code",
-      "norm_label": ".body",
-      "source_file": "Sources/Lyricora/Views/TouchBarLyricsView.swift",
-      "source_location": "L35"
-    },
-    {
-      "id": "cgrect",
-      "label": "CGRect",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "cgrect",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "layout",
-      "label": "Layout",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "layout",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "proposedviewsize",
-      "label": "ProposedViewSize",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "proposedviewsize",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview",
-      "label": "LyricsView.swift",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "lyricsview.swift",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L1"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_lyriclinerow_body",
-      "label": ".body",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".body",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L109"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_lyriclinerow_timeindicator",
-      "label": ".timeIndicator",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".timeindicator",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L150"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_lyricsview_body",
-      "label": ".body",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".body",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L23"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_lyricsview_emptystateview",
-      "label": ".emptyStateView",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".emptystateview",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L258"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_lyricsview_loadingview",
-      "label": ".loadingView",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".loadingview",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L246"
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_swift_bool",
-      "label": "Bool",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "bool",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_swift_cgfloat",
-      "label": "CGFloat",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "cgfloat",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_swift_cgsize",
-      "label": "CGSize",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "cgsize",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_swift_never",
-      "label": "Never",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "never",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_swift_task",
-      "label": "Task",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "task",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_swift_timeinterval",
-      "label": "TimeInterval",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "timeinterval",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_swift_uuid",
-      "label": "UUID",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "uuid",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_swift_void",
-      "label": "Void",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "void",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_lyricsview_wrappingwordview_body",
-      "label": ".body",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": ".body",
-      "source_file": "Sources/Lyricora/Views/LyricsView.swift",
-      "source_location": "L171"
-    },
-    {
-      "id": "subviews",
-      "label": "Subviews",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "subviews",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "view",
-      "label": "View",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "LyricsView",
-      "file_type": "code",
-      "norm_label": "view",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "nsapplication",
-      "label": "NSApplication",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": "nsapplication",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "nsapplicationdelegate",
-      "label": "NSApplicationDelegate",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": "nsapplicationdelegate",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "nsobject",
-      "label": "NSObject",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": "nsobject",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "nswindow",
-      "label": "NSWindow",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": "nswindow",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "nswindowdelegate",
-      "label": "NSWindowDelegate",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": "nswindowdelegate",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_app_lyricoraapp_swift_bool",
-      "label": "Bool",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": "bool",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_app_lyricoraapp_swift_notification",
-      "label": "Notification",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": "notification",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_app_windowmanager_lyricorawindow_acceptsfirstresponder",
-      "label": ".acceptsFirstResponder",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": ".acceptsfirstresponder",
-      "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L9"
-    },
-    {
-      "id": "sources_lyricora_app_windowmanager_lyricorawindow_canbecomekey",
-      "label": ".canBecomeKey",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": ".canbecomekey",
-      "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L7"
-    },
-    {
-      "id": "sources_lyricora_app_windowmanager_lyricorawindow_canbecomemain",
-      "label": ".canBecomeMain",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": ".canbecomemain",
-      "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L8"
-    },
-    {
-      "id": "sources_lyricora_app_windowmanager_swift_bool",
-      "label": "Bool",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": "bool",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_app_windowmanager_swift_notification",
-      "label": "Notification",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": "notification",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_app_windowmanager_swift_nstouchbar",
-      "label": "NSTouchBar",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": "nstouchbar",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_app_windowmanager_windowmanager_panel",
-      "label": ".panel",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "WindowManager",
-      "file_type": "code",
-      "norm_label": ".panel",
-      "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L31"
-    },
-    {
-      "id": "cgpoint",
-      "label": "CGPoint",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": "cgpoint",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "date",
-      "label": "Date",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": "date",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_ambientbackdropview_ambientbackdropview_body",
-      "label": ".body",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": ".body",
-      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
-      "source_location": "L248"
-    },
-    {
-      "id": "sources_lyricora_views_ambientbackdropview_rgbcolor_color",
-      "label": ".color",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": ".color",
-      "source_file": "Sources/Lyricora/Views/AmbientBackdropView.swift",
-      "source_location": "L16"
-    },
-    {
-      "id": "sources_lyricora_views_ambientbackdropview_swift_bool",
-      "label": "Bool",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": "bool",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_ambientbackdropview_swift_cgfloat",
-      "label": "CGFloat",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": "cgfloat",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_ambientbackdropview_swift_color",
-      "label": "Color",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": "color",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_ambientbackdropview_swift_double",
-      "label": "Double",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": "double",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_ambientbackdropview_swift_graphicscontext",
-      "label": "GraphicsContext",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": "graphicscontext",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_views_ambientbackdropview_swift_nsimage",
-      "label": "NSImage",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "AmbientBackdropView",
-      "file_type": "code",
-      "norm_label": "nsimage",
+      "norm_label": "touchbarlyricsmode",
       "source_file": "",
       "source_location": ""
     },
@@ -3889,7 +4082,7 @@
       "id": "any",
       "label": "Any",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": "any",
@@ -3900,7 +4093,7 @@
       "id": "content",
       "label": "Content",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": "content",
@@ -3911,7 +4104,7 @@
       "id": "sources_lyricora_views_ambientcanvasview",
       "label": "AmbientCanvasView.swift",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": "ambientcanvasview.swift",
@@ -3922,7 +4115,7 @@
       "id": "sources_lyricora_views_ambientcanvasview_ambientcanvasview_body",
       "label": ".body",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": ".body",
@@ -3933,7 +4126,7 @@
       "id": "sources_lyricora_views_ambientcanvasview_swift_bool",
       "label": "Bool",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": "bool",
@@ -3944,7 +4137,7 @@
       "id": "sources_lyricora_views_ambientcanvasview_swift_cgfloat",
       "label": "CGFloat",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": "cgfloat",
@@ -3955,7 +4148,7 @@
       "id": "sources_lyricora_views_ambientcanvasview_swift_never",
       "label": "Never",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": "never",
@@ -3966,7 +4159,7 @@
       "id": "sources_lyricora_views_ambientcanvasview_swift_task",
       "label": "Task",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": "task",
@@ -3977,7 +4170,7 @@
       "id": "sources_lyricora_views_ambientcanvasview_swift_timeinterval",
       "label": "TimeInterval",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": "timeinterval",
@@ -3988,7 +4181,7 @@
       "id": "sources_lyricora_views_ambientcanvasview_swift_void",
       "label": "Void",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": "void",
@@ -3999,7 +4192,7 @@
       "id": "viewmodifier",
       "label": "ViewModifier",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "AmbientCanvasView",
       "file_type": "code",
       "norm_label": "viewmodifier",
@@ -4007,222 +4200,123 @@
       "source_location": ""
     },
     {
-      "id": "sources_lyricora_models_playbackstate_swift_cgsize",
-      "label": "CGSize",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": "cgsize",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_viewmode_ambientcanvas",
-      "label": "ambientCanvas",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": "ambientcanvas",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L52"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_viewmode_fulloverlay",
-      "label": "fullOverlay",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": "fulloverlay",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L51"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_viewmode_iconname",
-      "label": ".iconName",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": ".iconname",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L56"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_viewmode_id",
-      "label": ".id",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": ".id",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L54"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_viewmode_minihud",
-      "label": "miniHUD",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": "minihud",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L50"
-    },
-    {
-      "id": "sources_lyricora_models_playbackstate_viewmode_windowsize",
-      "label": ".windowSize",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": ".windowsize",
-      "source_file": "Sources/Lyricora/Models/PlaybackState.swift",
-      "source_location": "L67"
-    },
-    {
-      "id": "sources_lyricora_views_contentview",
-      "label": "ContentView.swift",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": "contentview.swift",
-      "source_file": "Sources/Lyricora/Views/ContentView.swift",
-      "source_location": "L1"
-    },
-    {
-      "id": "sources_lyricora_views_contentview_contentview_currentmode",
-      "label": ".currentMode",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": ".currentmode",
-      "source_file": "Sources/Lyricora/Views/ContentView.swift",
-      "source_location": "L21"
-    },
-    {
-      "id": "sources_lyricora_views_contentview_contentview_headerview",
-      "label": ".headerView",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": ".headerview",
-      "source_file": "Sources/Lyricora/Views/ContentView.swift",
-      "source_location": "L128"
-    },
-    {
-      "id": "sources_lyricora_views_contentview_swift_void",
-      "label": "Void",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ViewMode",
-      "file_type": "code",
-      "norm_label": "void",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "font",
-      "label": "Font",
+      "id": "app",
+      "label": "App",
       "_origin": "ast",
       "community": 9,
-      "community_name": "KaraokeWordText",
+      "community_name": "SleepPreventerService",
       "file_type": "code",
-      "norm_label": "font",
+      "norm_label": "app",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "sources_lyricora_rendering_karaoketextrenderer",
-      "label": "KaraokeTextRenderer.swift",
+      "id": "iokit_pwr_mgt",
+      "label": "IOKit.pwr_mgt",
       "_origin": "ast",
       "community": 9,
-      "community_name": "KaraokeWordText",
+      "community_name": "SleepPreventerService",
       "file_type": "code",
-      "norm_label": "karaoketextrenderer.swift",
-      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
-      "source_location": "L1"
+      "norm_label": "iokit.pwr_mgt",
+      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
+      "source_location": "L2",
+      "type": "module"
     },
     {
-      "id": "sources_lyricora_rendering_karaoketextrenderer_karaokewordtext_body",
+      "id": "iopmassertionid",
+      "label": "IOPMAssertionID",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "SleepPreventerService",
+      "file_type": "code",
+      "norm_label": "iopmassertionid",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "scene",
+      "label": "Scene",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "SleepPreventerService",
+      "file_type": "code",
+      "norm_label": "scene",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_app_lyricoraapp_lyricoraapp_body",
       "label": ".body",
       "_origin": "ast",
       "community": 9,
-      "community_name": "KaraokeWordText",
+      "community_name": "SleepPreventerService",
       "file_type": "code",
       "norm_label": ".body",
-      "source_file": "Sources/Lyricora/Rendering/KaraokeTextRenderer.swift",
-      "source_location": "L104"
+      "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
+      "source_location": "L33"
     },
     {
-      "id": "sources_lyricora_rendering_karaoketextrenderer_swift_bool",
+      "id": "sources_lyricora_app_lyricoraapp_lyricoraapp_menubarcontent",
+      "label": ".menuBarContent",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "SleepPreventerService",
+      "file_type": "code",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "terminate",
+            "receiver_type": "NSApplication",
+            "lang": "swift",
+            "line": "L135"
+          }
+        ]
+      },
+      "norm_label": ".menubarcontent",
+      "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
+      "source_location": "L51"
+    },
+    {
+      "id": "sources_lyricora_app_lyricoraapp_swift_view",
+      "label": "View",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "SleepPreventerService",
+      "file_type": "code",
+      "norm_label": "view",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "sources_lyricora_services_sleeppreventerservice",
+      "label": "SleepPreventerService.swift",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "SleepPreventerService",
+      "file_type": "code",
+      "norm_label": "sleeppreventerservice.swift",
+      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_isscreenawakeenabled",
+      "label": ".isScreenAwakeEnabled",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "SleepPreventerService",
+      "file_type": "code",
+      "norm_label": ".isscreenawakeenabled",
+      "source_file": "Sources/Lyricora/Services/SleepPreventerService.swift",
+      "source_location": "L13"
+    },
+    {
+      "id": "sources_lyricora_services_sleeppreventerservice_swift_bool",
       "label": "Bool",
       "_origin": "ast",
       "community": 9,
-      "community_name": "KaraokeWordText",
+      "community_name": "SleepPreventerService",
       "file_type": "code",
       "norm_label": "bool",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_rendering_karaoketextrenderer_swift_color",
-      "label": "Color",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "KaraokeWordText",
-      "file_type": "code",
-      "norm_label": "color",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_rendering_karaoketextrenderer_swift_double",
-      "label": "Double",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "KaraokeWordText",
-      "file_type": "code",
-      "norm_label": "double",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "sources_lyricora_rendering_karaoketextrenderer_swift_graphicscontext",
-      "label": "GraphicsContext",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "KaraokeWordText",
-      "file_type": "code",
-      "norm_label": "graphicscontext",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "text",
-      "label": "Text",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "KaraokeWordText",
-      "file_type": "code",
-      "norm_label": "text",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "textrenderer",
-      "label": "TextRenderer",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "KaraokeWordText",
-      "file_type": "code",
-      "norm_label": "textrenderer",
       "source_file": "",
       "source_location": ""
     }
@@ -4237,7 +4331,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L17",
+      "source_location": "L18",
       "weight": 1.0
     },
     {
@@ -4253,6 +4347,18 @@
       "weight": 1.0
     },
     {
+      "source": "sources_lyricora_app_lyricoraapp_appdelegate_applicationdidfinishlaunching",
+      "target": "sources_lyricora_services_touchbarservice_touchbarservice_setuptouchbar",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
       "source": "sources_lyricora_app_lyricoraapp_appdelegate_applicationshouldhandlereopen",
       "target": "sources_lyricora_app_windowmanager_windowmanager_showwindow",
       "relation": "calls",
@@ -4261,7 +4367,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -4273,7 +4379,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L21",
+      "source_location": "L22",
       "weight": 1.0
     },
     {
@@ -4285,7 +4391,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L123",
+      "source_location": "L124",
       "weight": 1.0
     },
     {
@@ -4297,7 +4403,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L133",
+      "source_location": "L134",
       "weight": 1.0
     },
     {
@@ -4309,7 +4415,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L85",
+      "source_location": "L86",
       "weight": 1.0
     },
     {
@@ -4369,7 +4475,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L129",
+      "source_location": "L136",
       "weight": 1.0
     },
     {
@@ -4381,7 +4487,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L37",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_lyricora_app_windowmanager_windowmanager_setupfloatingwindow",
+      "target": "sources_lyricora_app_windowmanager_lyricorawindow_maketouchbar",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "Sources/Lyricora/App/WindowManager.swift",
+      "source_location": "L103",
       "weight": 1.0
     },
     {
@@ -4393,7 +4511,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L52",
+      "source_location": "L53",
       "weight": 1.0
     },
     {
@@ -4405,7 +4523,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L88",
+      "source_location": "L95",
       "weight": 1.0
     },
     {
@@ -4417,19 +4535,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L91",
-      "weight": 1.0
-    },
-    {
-      "source": "sources_lyricora_app_windowmanager_windowmanager_setupfloatingwindow",
-      "target": "sources_lyricora_app_windowmanager_lyricorawindow_maketouchbar",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L96",
+      "source_location": "L98",
       "weight": 1.0
     },
     {
@@ -4441,7 +4547,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L119",
+      "source_location": "L126",
       "weight": 1.0
     },
     {
@@ -4453,7 +4559,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L124",
+      "source_location": "L131",
       "weight": 1.0
     },
     {
@@ -4465,7 +4571,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L152",
+      "source_location": "L210",
       "weight": 1.0
     },
     {
@@ -4477,7 +4583,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L106",
+      "source_location": "L113",
       "weight": 1.0
     },
     {
@@ -4489,7 +4595,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L113",
+      "source_location": "L120",
       "weight": 1.0
     },
     {
@@ -4501,7 +4607,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L164",
+      "source_location": "L222",
       "weight": 1.0
     },
     {
@@ -4513,7 +4619,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L166",
+      "source_location": "L224",
       "weight": 1.0
     },
     {
@@ -4525,7 +4631,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L173",
+      "source_location": "L231",
       "weight": 1.0
     },
     {
@@ -4537,7 +4643,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L175",
+      "source_location": "L233",
       "weight": 1.0
     },
     {
@@ -5017,7 +5123,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L83",
+      "source_location": "L85",
       "weight": 1.0
     },
     {
@@ -5029,7 +5135,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L73",
+      "source_location": "L74",
       "weight": 1.0
     },
     {
@@ -5041,7 +5147,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L39",
+      "source_location": "L40",
       "weight": 1.0
     },
     {
@@ -5053,19 +5159,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L41",
+      "source_location": "L42",
       "weight": 1.0
     },
     {
-      "source": "sources_lyricora_services_touchbarservice_touchbarservice_init",
-      "target": "sources_lyricora_services_touchbarservice_touchbarservice_setuptouchbar",
+      "source": "sources_lyricora_services_touchbarservice_touchbarservice_mode",
+      "target": "sources_lyricora_services_touchbarservice_touchbarservice_removesystemtrayitem",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L42",
+      "source_location": "L17",
       "weight": 1.0
     },
     {
@@ -5077,7 +5183,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L17",
+      "source_location": "L18",
       "weight": 1.0
     },
     {
@@ -5089,7 +5195,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L142",
+      "source_location": "L147",
       "weight": 1.0
     },
     {
@@ -5101,7 +5207,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L92",
+      "source_location": "L95",
       "weight": 1.0
     },
     {
@@ -5113,7 +5219,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L204",
+      "source_location": "L209",
       "weight": 1.0
     },
     {
@@ -5125,7 +5231,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L205",
+      "source_location": "L210",
       "weight": 1.0
     },
     {
@@ -5137,7 +5243,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L206",
+      "source_location": "L211",
       "weight": 1.0
     },
     {
@@ -5149,7 +5255,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L213",
+      "source_location": "L217",
       "weight": 1.0
     },
     {
@@ -5161,7 +5267,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L219",
+      "source_location": "L223",
       "weight": 1.0
     },
     {
@@ -5173,7 +5279,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L220",
+      "source_location": "L224",
       "weight": 1.0
     },
     {
@@ -5185,7 +5291,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L231",
+      "source_location": "L235",
       "weight": 1.0
     },
     {
@@ -5701,7 +5807,7 @@
       "confidence_score": 1.0,
       "context": "field",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L32",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
@@ -5713,7 +5819,7 @@
       "confidence_score": 1.0,
       "context": "field",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L50",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
@@ -5754,7 +5860,7 @@
     },
     {
       "source": "sources_lyricora_app_windowmanager_windowmanager",
-      "target": "sources_lyricora_models_playbackstate_viewmode",
+      "target": "sources_lyricora_app_windowmanager_swift_viewmode",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5762,6 +5868,18 @@
       "context": "field",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
       "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_lyricora_app_windowmanager_windowmanager",
+      "target": "nsrect",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "Sources/Lyricora/App/WindowManager.swift",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -6246,7 +6364,7 @@
     },
     {
       "source": "sources_lyricora_services_touchbarservice_touchbarservice",
-      "target": "sources_lyricora_models_playbackstate_touchbarlyricsmode",
+      "target": "touchbarlyricsmode",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6265,7 +6383,7 @@
       "confidence_score": 1.0,
       "context": "field",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L21",
+      "source_location": "L22",
       "weight": 1.0
     },
     {
@@ -6277,7 +6395,7 @@
       "confidence_score": 1.0,
       "context": "field",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L22",
+      "source_location": "L23",
       "weight": 1.0
     },
     {
@@ -6289,7 +6407,7 @@
       "confidence_score": 1.0,
       "context": "field",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L23",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
@@ -6510,7 +6628,7 @@
     },
     {
       "source": "sources_lyricora_views_contentview_contentview",
-      "target": "sources_lyricora_views_contentview_swift_void",
+      "target": "void",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6522,7 +6640,7 @@
     },
     {
       "source": "sources_lyricora_views_contentview_contentview",
-      "target": "sources_lyricora_models_playbackstate_viewmode",
+      "target": "sources_lyricora_views_contentview_swift_viewmode",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7309,7 +7427,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L16",
+      "source_location": "L17",
       "weight": 1.0
     },
     {
@@ -7333,7 +7451,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -7345,12 +7463,12 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L20",
+      "source_location": "L21",
       "weight": 1.0
     },
     {
       "source": "sources_lyricora_app_windowmanager_lyricorawindow_keydown",
-      "target": "sources_lyricora_app_windowmanager_swift_nsevent",
+      "target": "nsevent",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7362,14 +7480,14 @@
     },
     {
       "source": "sources_lyricora_app_windowmanager_windowmanager_transition",
-      "target": "sources_lyricora_models_playbackstate_viewmode",
+      "target": "sources_lyricora_app_windowmanager_swift_viewmode",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L132",
+      "source_location": "L139",
       "weight": 1.0
     },
     {
@@ -7381,7 +7499,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L162",
+      "source_location": "L220",
       "weight": 1.0
     },
     {
@@ -7393,7 +7511,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L169",
+      "source_location": "L227",
       "weight": 1.0
     },
     {
@@ -7405,7 +7523,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L178",
+      "source_location": "L236",
       "weight": 1.0
     },
     {
@@ -7417,7 +7535,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L156",
+      "source_location": "L214",
       "weight": 1.0
     },
     {
@@ -7957,7 +8075,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L125",
+      "source_location": "L129",
       "weight": 1.0
     },
     {
@@ -7969,19 +8087,19 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L133",
+      "source_location": "L137",
       "weight": 1.0
     },
     {
       "source": "sources_lyricora_services_touchbarservice_touchbarservice_setmode",
-      "target": "sources_lyricora_models_playbackstate_touchbarlyricsmode",
+      "target": "touchbarlyricsmode",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L76",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -7993,7 +8111,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L106",
+      "source_location": "L110",
       "weight": 1.0
     },
     {
@@ -8298,19 +8416,19 @@
     },
     {
       "source": "sources_lyricora_views_contentview_contentview_formatduration",
-      "target": "sources_lyricora_views_contentview_swift_timeinterval",
+      "target": "timeinterval",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "Sources/Lyricora/Views/ContentView.swift",
-      "source_location": "L286",
+      "source_location": "L289",
       "weight": 1.0
     },
     {
       "source": "sources_lyricora_views_contentview_contentview_init",
-      "target": "sources_lyricora_models_playbackstate_viewmode",
+      "target": "sources_lyricora_views_contentview_swift_viewmode",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8322,7 +8440,7 @@
     },
     {
       "source": "sources_lyricora_views_contentview_contentview_init",
-      "target": "sources_lyricora_views_contentview_swift_void",
+      "target": "void",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8334,7 +8452,7 @@
     },
     {
       "source": "sources_lyricora_views_contentview_contentview_switchmode",
-      "target": "sources_lyricora_models_playbackstate_viewmode",
+      "target": "sources_lyricora_views_contentview_swift_viewmode",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8704,7 +8822,7 @@
         "swift_plain_return": true
       },
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -8719,7 +8837,7 @@
         "swift_plain_return": true
       },
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L178",
+      "source_location": "L236",
       "weight": 1.0
     },
     {
@@ -8874,7 +8992,7 @@
     },
     {
       "source": "sources_lyricora_views_contentview_contentview_formatduration",
-      "target": "sources_lyricora_models_lyricmodels_string",
+      "target": "string",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8884,7 +9002,7 @@
         "swift_plain_return": true
       },
       "source_file": "Sources/Lyricora/Views/ContentView.swift",
-      "source_location": "L286",
+      "source_location": "L289",
       "weight": 1.0
     },
     {
@@ -9022,7 +9140,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L95",
+      "source_location": "L99",
       "weight": 1.0
     },
     {
@@ -9034,7 +9152,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L106",
+      "source_location": "L110",
       "weight": 1.0
     },
     {
@@ -9226,7 +9344,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -9655,7 +9773,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -10249,7 +10367,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -10260,7 +10378,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L16",
+      "source_location": "L17",
       "weight": 1.0
     },
     {
@@ -10271,7 +10389,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L20",
+      "source_location": "L21",
       "weight": 1.0
     },
     {
@@ -10293,7 +10411,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L32",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
@@ -10304,7 +10422,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L50",
+      "source_location": "L51",
       "weight": 1.0
     },
     {
@@ -10370,7 +10488,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L104",
+      "source_location": "L111",
       "weight": 1.0
     },
     {
@@ -10381,7 +10499,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L117",
+      "source_location": "L124",
       "weight": 1.0
     },
     {
@@ -10392,7 +10510,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L127",
+      "source_location": "L134",
       "weight": 1.0
     },
     {
@@ -10403,7 +10521,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L132",
+      "source_location": "L139",
       "weight": 1.0
     },
     {
@@ -10414,7 +10532,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L151",
+      "source_location": "L209",
       "weight": 1.0
     },
     {
@@ -10425,7 +10543,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L156",
+      "source_location": "L214",
       "weight": 1.0
     },
     {
@@ -10436,7 +10554,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L162",
+      "source_location": "L220",
       "weight": 1.0
     },
     {
@@ -10447,7 +10565,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L169",
+      "source_location": "L227",
       "weight": 1.0
     },
     {
@@ -10458,7 +10576,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L178",
+      "source_location": "L236",
       "weight": 1.0
     },
     {
@@ -10480,7 +10598,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L36",
+      "source_location": "L37",
       "weight": 1.0
     },
     {
@@ -10491,7 +10609,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L40",
+      "source_location": "L41",
       "weight": 1.0
     },
     {
@@ -11118,7 +11236,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L106",
+      "source_location": "L110",
       "weight": 1.0
     },
     {
@@ -11129,7 +11247,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L125",
+      "source_location": "L129",
       "weight": 1.0
     },
     {
@@ -11140,7 +11258,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L133",
+      "source_location": "L137",
       "weight": 1.0
     },
     {
@@ -11162,7 +11280,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L141",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
@@ -11173,7 +11291,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L154",
+      "source_location": "L159",
       "weight": 1.0
     },
     {
@@ -11184,7 +11302,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L170",
+      "source_location": "L175",
       "weight": 1.0
     },
     {
@@ -11195,7 +11313,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L192",
+      "source_location": "L197",
       "weight": 1.0
     },
     {
@@ -11206,7 +11324,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L202",
+      "source_location": "L207",
       "weight": 1.0
     },
     {
@@ -11217,7 +11335,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L31",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -11250,7 +11368,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L76",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -11261,7 +11379,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L80",
+      "source_location": "L82",
       "weight": 1.0
     },
     {
@@ -11272,7 +11390,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L91",
+      "source_location": "L93",
       "weight": 1.0
     },
     {
@@ -11283,7 +11401,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L95",
+      "source_location": "L99",
       "weight": 1.0
     },
     {
@@ -11580,7 +11698,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "Sources/Lyricora/Views/ContentView.swift",
-      "source_location": "L286",
+      "source_location": "L289",
       "weight": 1.0
     },
     {
@@ -12003,6 +12121,18 @@
     },
     {
       "source": "sources_lyricora_app_lyricoraapp_lyricoraapp_menubarcontent",
+      "target": "sources_lyricora_services_touchbarservice_touchbarservice_setmode",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "context": "call",
+      "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_lyricora_app_lyricoraapp_lyricoraapp_menubarcontent",
       "target": "sources_lyricora_services_sleeppreventerservice_sleeppreventerservice_togglescreenawake",
       "relation": "calls",
       "_origin": "ast",
@@ -12010,7 +12140,7 @@
       "confidence_score": 0.8,
       "context": "call",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L116",
+      "source_location": "L117",
       "weight": 1.0
     },
     {
@@ -12022,7 +12152,7 @@
       "confidence_score": 0.8,
       "context": "call",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L64",
+      "source_location": "L65",
       "weight": 1.0
     },
     {
@@ -12034,7 +12164,7 @@
       "confidence_score": 0.8,
       "context": "call",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L71",
+      "source_location": "L72",
       "weight": 1.0
     },
     {
@@ -12046,19 +12176,7 @@
       "confidence_score": 0.8,
       "context": "call",
       "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L75",
-      "weight": 1.0
-    },
-    {
-      "source": "sources_lyricora_app_lyricoraapp_lyricoraapp_menubarcontent",
-      "target": "sources_lyricora_services_touchbarservice_touchbarservice_setmode",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "context": "call",
-      "source_file": "Sources/Lyricora/App/LyricoraApp.swift",
-      "source_location": "L99",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
@@ -12226,7 +12344,7 @@
       "confidence_score": 0.8,
       "context": "call",
       "source_file": "Sources/Lyricora/Views/ContentView.swift",
-      "source_location": "L282",
+      "source_location": "L285",
       "weight": 1.0
     },
     {
@@ -12478,7 +12596,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "Sources/Lyricora/App/WindowManager.swift",
-      "source_location": "L86",
+      "source_location": "L93",
       "weight": 1.0
     },
     {
@@ -12490,7 +12608,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L174",
+      "source_location": "L179",
       "weight": 1.0
     },
     {
@@ -12502,7 +12620,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "Sources/Lyricora/Services/TouchBarService.swift",
-      "source_location": "L109",
+      "source_location": "L113",
       "weight": 1.0
     },
     {
@@ -12818,5 +12936,6 @@
       "weight": 1.0
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "1811a5e8ba1789dcb4299f216ebfbc72251f1b3f"
 }
