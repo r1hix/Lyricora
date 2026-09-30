@@ -1,13 +1,24 @@
 #!/usr/bin/env bash
 set -e
 
-echo "🔨 Building Lyricora in Release mode..."
-if xcodebuild -checkFirstLaunchStatus &>/dev/null; then
-    swift build -c release
+echo "🔨 Building Lyricora in Universal Release mode (arm64 + x86_64)..."
+swift build -c release --arch arm64 --arch x86_64
+
+# Locate output universal binary
+BIN_PATH=""
+if [ -f ".build/out/Products/Release/Lyricora" ]; then
+    BIN_PATH=".build/out/Products/Release/Lyricora"
+elif [ -f ".build/apple/Products/Release/Lyricora" ]; then
+    BIN_PATH=".build/apple/Products/Release/Lyricora"
+elif [ -f ".build/release/Lyricora" ]; then
+    BIN_PATH=".build/release/Lyricora"
 else
-    DEVELOPER_DIR=/Library/Developer/CommandLineTools swift build -c release \
-        -Xswiftc -load-plugin-library \
-        -Xswiftc /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/swift/host/plugins/libSwiftUIMacros.dylib
+    BIN_PATH=$(find .build -name "Lyricora" -type f ! -path "*.dSYM*" ! -path "*Objects*" | head -n 1)
+fi
+
+if [ -z "$BIN_PATH" ] || [ ! -f "$BIN_PATH" ]; then
+    echo "❌ Error: Could not locate compiled Lyricora binary in .build"
+    exit 1
 fi
 
 APP_NAME="Lyricora.app"
@@ -21,7 +32,7 @@ rm -rf "$BUNDLE_DIR"
 mkdir -p "$MACOS_DIR"
 mkdir -p "$RESOURCES_DIR"
 
-cp .build/release/Lyricora "$MACOS_DIR/Lyricora"
+cp "$BIN_PATH" "$MACOS_DIR/Lyricora"
 chmod +x "$MACOS_DIR/Lyricora"
 
 cat << 'EOF' > "$CONTENTS_DIR/Info.plist"
@@ -56,4 +67,5 @@ cat << 'EOF' > "$CONTENTS_DIR/Info.plist"
 EOF
 
 echo "✅ Successfully built $APP_NAME in ./build/"
+file "$MACOS_DIR/Lyricora"
 echo "🚀 To launch: open $BUNDLE_DIR"
