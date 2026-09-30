@@ -35,6 +35,11 @@ mkdir -p "$RESOURCES_DIR"
 cp "$BIN_PATH" "$MACOS_DIR/Lyricora"
 chmod +x "$MACOS_DIR/Lyricora"
 
+if [ -f "Resources/AppIcon.icns" ]; then
+    echo "🎨 Installing AppIcon.icns into bundle..."
+    cp "Resources/AppIcon.icns" "$RESOURCES_DIR/AppIcon.icns"
+fi
+
 cat << 'EOF' > "$CONTENTS_DIR/Info.plist"
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -48,6 +53,8 @@ cat << 'EOF' > "$CONTENTS_DIR/Info.plist"
     <string>Lyricora</string>
     <key>CFBundleDisplayName</key>
     <string>Lyricora</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
@@ -66,6 +73,9 @@ cat << 'EOF' > "$CONTENTS_DIR/Info.plist"
 </plist>
 EOF
 
-echo "✅ Successfully built $APP_NAME in ./build/"
+echo "🔏 Applying ad-hoc code signature..."
+codesign --force --deep --sign - "$BUNDLE_DIR"
+
+echo "✅ Successfully built and signed $APP_NAME in ./build/"
 file "$MACOS_DIR/Lyricora"
 echo "🚀 To launch: open $BUNDLE_DIR"
