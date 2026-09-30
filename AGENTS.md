@@ -89,3 +89,8 @@ This repository maintains a strict two-branch separation of concerns:
 - **SwiftUI & AppKit Lifecycle**:
   - UI initialization (e.g. creating floating windows, presenting modal Touch Bars) must happen in or after `applicationDidFinishLaunching` (or via `DispatchQueue.main.async`).
   - Never trigger modal AppKit overlays or `NSHostingView` layouts synchronously inside `@Observable` / `@State` property initializers or `init()` methods, as this triggers `AttributeGraph` re-entrancy assertion crashes (`AG::precondition_failure`).
+- **Touch Bar Service**:
+  - The Touch Bar service uses `presentSystemModalTouchBar:placement:systemTrayItemIdentifier:` to display the Touch Bar. This method requires a system tray item identifier to be registered with the system.
+  - When `currentMode` changes, `updateTouchBarPresence` is called, which removes the old system tray item and registers a new one. This is necessary to avoid the Touch Bar not appearing after mode changes.
+- **Other**:
+  - Use graphify data `graphify-out/` for architectural insights and improvements.
