@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Resources/AppIcon.png" alt="Lyricora Icon" width="128" height="128" />
+</p>
+
 # Lyricora 🎵 ✨
 
 > **Made by [r1hix](https://github.com/r1hix)**  
@@ -40,29 +44,27 @@
 - Swift 5.10+ / Xcode 15+ Command Line Tools
 - Spotify Desktop app
 
-### 1. Clone Repository
+### 1. Download & Launch
+1. Download **`Lyricora-v1.0.0-macOS.zip`** from [Releases](https://github.com/r1hix/Lyricora/releases).
+2. Unzip and drag `Lyricora.app` into `/Applications`.
+3. Open `Lyricora.app` and start playing any track in Spotify!
+
+> [!TIP]
+> **First-time launch on macOS Gatekeeper**: Because Lyricora is an open-source ad-hoc signed app, right-click (or Control-click) `Lyricora.app` and choose **Open**, then click **Open** in the prompt (or run `xattr -cr /Applications/Lyricora.app` in Terminal).
+
+### 2. Or Build From Source
 ```bash
 git clone https://github.com/r1hix/Lyricora.git
 cd Lyricora
-```
 
-### 2. Run Tests
-```bash
+# Run unit test suite
 swift test
-```
 
-### 3. Build & Run Application Bundle
-```bash
-# Build standalone macOS .app bundle
+# Build Universal .app bundle (Apple Silicon + Intel)
 ./build_app.sh
 
-# Launch Lyricora
+# Launch
 open build/Lyricora.app
-```
-
-Alternatively, run directly from terminal:
-```bash
-swift run Lyricora
 ```
 
 ---
@@ -72,7 +74,10 @@ swift run Lyricora
 ```
 Lyricora/
 ├── Package.swift                    # SwiftPM manifest targeting macOS 14+
-├── build_app.sh                     # Automated .app bundler script
+├── build_app.sh                     # Automated universal .app bundler script
+├── Resources/
+│   ├── AppIcon.icns                 # High-resolution macOS application icon bundle
+│   └── AppIcon.png                  # Documentation icon preview
 ├── Sources/
 │   └── Lyricora/
 │       ├── App/
@@ -105,6 +110,6 @@ Lyricora/
 
 ## 🛠️ Credits & Attribution
 
-- **Vibecoded by [r1hix](https://github.com/r1hix)**
+- **Made by [r1hix](https://github.com/r1hix)**
 - Lyrics powered by [LRCLIB](https://lrclib.net/)
 - Audio integration via Spotify macOS AppleScript & Distributed Notifications

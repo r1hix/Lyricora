@@ -21,6 +21,7 @@ This repository maintains a strict two-branch separation of concerns:
 - **Purpose**: Clean, lightweight release branch containing **only** files required to build and run the end-user application.
 - **Allowed Paths**:
   - `Sources/` — Core Swift application source code.
+  - `Resources/` — Application icon (`AppIcon.icns`) and bundle assets.
   - `build_app.sh` — App bundle packaging script.
   - `Package.swift` — Swift package manifest declaring **only** the `Lyricora` executable target.
   - `.gitignore` — Release `.gitignore` that explicitly excludes developer-only artifacts:
@@ -35,7 +36,7 @@ This repository maintains a strict two-branch separation of concerns:
 ### `dev` Branch (Active Development & Architecture)
 - **Purpose**: All active development, testing, architectural analysis, and debugging.
 - **Allowed Paths**:
-  - All paths from `master` (`Sources/`, `build_app.sh`, etc.)
+  - All paths from `master` (`Sources/`, `Resources/`, `build_app.sh`, etc.)
   - `Tests/` — Unit test suite (`Tests/LyricoraTests/`).
   - `Package.swift` — Includes both `Lyricora` target and `LyricoraTests` test target.
   - `graphify-out/` — Architecture dependency graphs, community clusters, and reports:
@@ -71,7 +72,7 @@ This repository maintains a strict two-branch separation of concerns:
    - Switch to `master`: `git checkout master`
    - Only check out user-facing files from `dev`:
      ```bash
-     git checkout dev -- Sources/ build_app.sh
+     git checkout dev -- Sources/ Resources/ build_app.sh
      ```
    - **Never** run a plain `git merge dev` into `master` (as this would pollute `master` with `Tests/`, `graphify-out/`, and conflicting package/gitignore settings).
    - Verify the build on `master` with `./build_app.sh`.
