@@ -14,6 +14,12 @@
 
 ---
 
+<p align="center">
+  <img src="Screenshots/SS_AmbientMode.png" alt="Lyricora Ambient Canvas Visualizer" width="100%" />
+</p>
+
+---
+
 ## 🌟 Highlights
 
 **Lyricora** is an ultra-fluid, native macOS application built with SwiftUI, AppKit, and CoreGraphics. It transforms your Spotify listening experience with real-time synchronized karaoke lyrics, interactive dynamic backdrops, Touch Bar support, and seamless overlay modes.
@@ -29,11 +35,54 @@
 
 ## 🎛️ Three Dynamic View Modes
 
+Lyricora adapts seamlessly to your workflow with three tailored presentation modes:
+
 | Mode | Dimensions | Description |
 | :--- | :--- | :--- |
 | **Mini HUD** | `480 × 72` | Compact floating pill with ultra-thin material, artwork thumbnail, track metadata, active karaoke line, and hover transport controls. |
 | **Full Lyrics** | `460 × 680` | Glassmorphic floating window with auto-scrolling lyrics stream, smooth spring physics, click-to-seek, and instrumental detection. |
 | **Ambient Canvas** | `900 × 650` / Fullscreen | Immersive stage with living lyrics, breathing album artwork, and radiant color orbs. Transport controls fade automatically on idle. |
+
+### Floating Windows: Full Lyrics & Mini HUD
+
+<table>
+  <tr>
+    <th width="48%" align="center">Full Lyrics Window (<code>460 × 680</code>)</th>
+    <th width="52%" align="center">Mini HUD Floating Pill (<code>480 × 72</code>)</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Screenshots/SS_AllLyricsView.png" alt="Full Lyrics Mode" width="100%" />
+      <p><em>Auto-scrolling lyrics stream with blooming active word glow</em></p>
+    </td>
+    <td align="center">
+      <p><strong>Track Metadata & Hover Controls</strong></p>
+      <img src="Screenshots/SS_MiniPlayerTitle.png" alt="Mini HUD Track Title" width="100%" />
+      <br/><br/>
+      <p><strong>Synchronized Karaoke Line</strong></p>
+      <img src="Screenshots/SS_MiniPlayer_Lyrics.png" alt="Mini HUD Lyrics" width="100%" />
+      <p><em>Ultra-compact floating pill with progress bar and mode toggle</em></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 💻 Native Touch Bar Lyrics
+
+Real-time synchronized karaoke lyrics streaming directly across your MacBook Pro Touch Bar, integrated with native AppKit control strip items and media transport controls.
+
+<p align="center">
+  <img src="Screenshots/TouchbarLyricsAnimated.gif" alt="MacBook Pro Touch Bar Live Lyrics Animation" width="100%" />
+</p>
+
+<details>
+  <summary>📸 <strong>View High-Resolution Touch Bar Still</strong></summary>
+  <br/>
+  <p align="center">
+    <img src="Screenshots/SS_ToucbarLyrics.png" alt="Touch Bar Hardware Still" width="100%" />
+  </p>
+</details>
 
 ---
 
@@ -78,6 +127,7 @@ Lyricora/
 ├── Resources/
 │   ├── AppIcon.icns                 # High-resolution macOS application icon bundle
 │   └── AppIcon.png                  # Documentation icon preview
+├── Screenshots/                     # Optimized visualizer captures, UI states & Touch Bar GIF
 ├── Sources/
 │   └── Lyricora/
 │       ├── App/
